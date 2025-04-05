@@ -2,3 +2,5 @@ downloads/
 __pycache__/
 .idea/
 download_log.json
+config.json
+.gitignore

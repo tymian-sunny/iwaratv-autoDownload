@@ -18,7 +18,7 @@ email = "your_email@example.com"  # 替换为你的邮箱
 password = "your_password"  # 替换为你的密码
 
 # 读取账号密码
-def jsonRead():
+def json_read():
     try:
         with open('config.json', 'r') as f:
             data = json.load(f)
@@ -47,6 +47,7 @@ def log_download_info(lock, video_id,avatar_name,video_title,video_numComments,v
         thumbnail_path (str | None): 缩略图文件存储路径 (可能为 None)。
         video_size_bytes (int): 视频文件大小 (bytes)，失败时为 0。
         success (bool): 下载是否成功。
+        local_id: 本地序列号
     """
     with lock: # 获取锁，保证只有一个线程能写入文件
         try:
@@ -60,6 +61,14 @@ def log_download_info(lock, video_id,avatar_name,video_title,video_numComments,v
                         log_data = {} # 如果文件损坏，则重置
             else:
                 log_data = {} # 文件不存在，创建空字典
+
+            # 如果查不到此条目则说明是新的条目，总数+1, 本地序列号为最新序列号
+            # 如果查得到，则本地序列号不变
+            if not log_data.get(video_id):
+                log_data['total']['number'] += 1
+                local_id = log_data['total']['number']
+            else:
+                local_id = log_data[video_id]['local_id']
 
             # 准备新的日志条目
             video_size_mb = round(video_size_bytes / (1024 * 1024), 1) if video_size_bytes else 0.0
@@ -77,6 +86,7 @@ def log_download_info(lock, video_id,avatar_name,video_title,video_numComments,v
                 "thumbnail_path": thumbnail_path,
                 "video_size_mb": video_size_mb,
                 "success": success,
+                "local_id": local_id,
                 "last_update_timestamp": timestamp # 添加原始时间戳以备将来排序或比较
             }
 
@@ -158,7 +168,7 @@ def download_worker(client, video_id, failed_queue, log_lock,avatar_name,video_t
 
 
 # --- 修改：批量下载主函数 ---
-def batch_download_videos(email, password, sort='date', rating='all', page=0, limit=32, subscribed=False):
+def batch_download_videos(client,email, password, sort='date', rating='all', page=0, limit=32, subscribed=False):
     """
     批量下载视频的主函数。
 
@@ -171,12 +181,7 @@ def batch_download_videos(email, password, sort='date', rating='all', page=0, li
         limit (int): 每页数量。
         subscribed (bool): 是否只下载订阅的视频。
     """
-    try:
-        client = ApiClient(email=email, password=password)
-        client.login() # 登录，如果失败会抛出 ConnectionError
-    except ConnectionError as e:
-        print(f"无法继续下载，登录失败: {e}")
-        return # 登录失败，直接退出
+
 
     try:
         videos_response = client.get_videos(sort=sort, rating=rating, page=page, limit=limit, subscribed=subscribed)
@@ -261,12 +266,21 @@ if __name__ == "__main__":
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     os.makedirs(THUMBNAIL_DIR, exist_ok=True)
 
-    data = jsonRead()
+    data = json_read()
+
     email = data['email']
     password = data['password']
 
     if email == "your_email@example.com" or password == "your_password":
          print("请在 config.json 中替换你的邮箱和密码！")
     else:
-        # 下载最新的10个视频
-        batch_download_videos(email, password, sort='trending', rating='all', page=0, limit=10)
+        # 下载最新的3页32个视频/页共96个视频
+        try:
+            client = ApiClient(email=email, password=password)
+            client.login()  # 登录，如果失败会抛出 ConnectionError
+        except ConnectionError as e:
+            print(f"无法继续下载，登录失败: {e}")
+
+        for i in range(0,3):
+            for j in range(1,5):
+                batch_download_videos(client,email, password, sort='trending', rating='all', page=i, limit=j*8)
