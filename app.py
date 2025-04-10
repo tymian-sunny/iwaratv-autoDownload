@@ -294,6 +294,6 @@ if __name__ == "__main__":
         except ConnectionError as e:
             print(f"无法继续下载，登录失败: {e}")
 
-        for i in range(0,3):
+        for i in range(0,5):
             for j in range(1,5):
                 batch_download_videos(client,email, password, sort='trending', rating='all', page=i, limit=j*8)
