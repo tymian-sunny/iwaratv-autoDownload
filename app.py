@@ -19,7 +19,7 @@ email = "your_email@example.com"  # 替换为你的邮箱
 password = "your_password"  # 替换为你的密码
 
 # 读取账号密码
-def json_read():
+def json_read(config_path):
     try:
         with open(config_path, 'r') as f:
             data = json.load(f)
@@ -274,18 +274,19 @@ def batch_download_videos(client,email, password, sort='date', rating='all', pag
 
     print("批量下载任务处理完毕。")
 
-def videoUpdate():
+# --- 使用示例 ---
+if __name__ == "__main__":
     # 确保下载目录和缩略图目录存在 (虽然下载函数会创建，但预先创建更好)
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     os.makedirs(THUMBNAIL_DIR, exist_ok=True)
-    
+
     # 获取文件路径
     base_path = os.path.dirname(os.path.abspath(__file__))
-    config_path = os.path.join(base_path,'config.json')
-    LOG_FILE = os.path.join(base_path,'download_log.json')
+    config_path = os.path.join(base_path, 'config.json')
+    LOG_FILE = os.path.join(base_path, 'download_log.json')
     print(f"config.json路径为: {config_path}\ndownload_log.json路径为: {LOG_FILE}")
 
-    data = json_read()
+    data = json_read(config_path)
     if data is None:
         print("配置文件读取失败，程序中止")
         exit(1)
@@ -294,7 +295,7 @@ def videoUpdate():
     password = data['password']
 
     if email == "your_email@example.com" or password == "your_password":
-         print("请在 config.json 中替换你的邮箱和密码！")
+        print("请在 config.json 中替换你的邮箱和密码！")
     else:
         # 下载最新的3页32个视频/页共96个视频
         try:
@@ -302,12 +303,10 @@ def videoUpdate():
             client.login()  # 登录，如果失败会抛出 ConnectionError
         except ConnectionError as e:
             print(f"无法继续下载，登录失败: {e}")
-        
-        for k in range(0,1):
+
+        for k in range(0, 1):
             style = True if range == 0 else False
-            for i in range(0,3):
-                for j in range(1,5):
-                    batch_download_videos(client,email, password, sort='trending', rating='all', page=i, limit=j*8,subscribed=style)
-# --- 使用示例 ---
-if __name__ == "__main__":
-    videoUpdate()
+            for i in range(0, 3):
+                for j in range(1, 5):
+                    batch_download_videos(client, email, password, sort='trending', rating='all', page=i, limit=j * 8,
+                                          subscribed=style)

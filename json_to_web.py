@@ -1,5 +1,6 @@
 # server.py
 import queue
+import subprocess
 import threading
 
 from flask import Flask, jsonify, request
@@ -12,6 +13,11 @@ from threading import Thread
 import socket
 app = Flask(__name__)
 CORS(app)
+
+@app.route('/updateVideo')
+def update_video():
+    subprocess.Popen(['python', 'app.py'])
+
 
 @app.route('/downloadVideoById', methods=['GET'])
 def download_video_by_id():
