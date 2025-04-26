@@ -26,7 +26,7 @@ def json_read():
     base_path = os.path.dirname(os.path.abspath(__file__))
     config_path = os.path.join(base_path, 'config.json')
     LOG_FILE = os.path.join(base_path, 'download_log.json')
-    
+
     try:
         with open(config_path, 'r') as f:
             data = json.load(f)
@@ -288,10 +288,10 @@ if __name__ == "__main__":
     os.makedirs(THUMBNAIL_DIR, exist_ok=True)
 
     # 获取文件路径
-    base_path = os.path.dirname(os.path.abspath(__file__))
-    config_path = os.path.join(base_path, 'config.json')
-    LOG_FILE = os.path.join(base_path, 'download_log.json')
-    print(f"config.json路径为: {config_path}\ndownload_log.json路径为: {LOG_FILE}")
+    # base_path = os.path.dirname(os.path.abspath(__file__))
+    # config_path = os.path.join(base_path, 'config.json')
+    # LOG_FILE = os.path.join(base_path, 'download_log.json')
+    # print(f"config.json路径为: {config_path}\ndownload_log.json路径为: {LOG_FILE}")
 
     data = json_read()
     if data is None:
