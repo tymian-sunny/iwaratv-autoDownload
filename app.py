@@ -69,6 +69,11 @@ def log_download_info(lock, video_id,avatar_name,video_title,video_numComments,v
                 local_id = log_data['total']['number']
             else:
                 local_id = log_data[video_id]['local_id']
+                # 如果查得到本地序列号，则判断视频是否已经下载完成
+                # 如果视频已经下载完成则直接退出
+                if log_data[video_id]['success']:
+                    print("视频已经下载完成，修改json文件失败")
+                    return
 
             # 准备新的日志条目
             video_size_mb = round(video_size_bytes / (1024 * 1024), 1) if video_size_bytes else 0.0
