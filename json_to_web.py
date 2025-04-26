@@ -26,7 +26,7 @@ def download_video_by_id():
     result = ""
     data = ""
     data = json_read()
-
+    print(data)
     # 登录
     email = data['email']
     password = data['password']
