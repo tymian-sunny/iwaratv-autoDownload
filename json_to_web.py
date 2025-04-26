@@ -1,4 +1,5 @@
 # server.py
+import os
 import queue
 import subprocess
 import threading
@@ -16,7 +17,7 @@ CORS(app)
 
 @app.route('/updateVideo')
 def update_video():
-    subprocess.Popen(['python', 'app.py'])
+    os.system('python app.py')
 
 
 @app.route('/downloadVideoById', methods=['GET'])
