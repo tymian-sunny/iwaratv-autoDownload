@@ -69,6 +69,11 @@ def log_download_info(lock, video_id,avatar_name,video_title,video_numComments,v
                 local_id = log_data['total']['number']
             else:
                 local_id = log_data[video_id]['local_id']
+                # 如果查得到本地序列号，则判断视频是否已经下载完成
+                # 如果视频已经下载完成则直接退出
+                if log_data[video_id]['success']:
+                    print("视频已经下载完成，修改json文件失败")
+                    return
 
                 # 如果查得到是本地序列号，说明条目已存在，查询是否已经曾下载完成
                 # 如果视频已经下载完成则直接退出
@@ -285,11 +290,11 @@ def videoUpdate():
         except ConnectionError as e:
             print(f"无法继续下载，登录失败: {e}")
 
-        for i in range(0,3):
-            style = False if (range == 0) else True
-            print(style)
-            for j in range(1,5):
-                batch_download_videos(client,email, password, sort='trending', rating='all', page=i, limit=j*8)
+        for k in range(0,1):
+            style = True if range == 0 else False
+            for i in range(0,3):
+                for j in range(1,5):
+                    batch_download_videos(client,email, password, sort='trending', rating='all', page=i, limit=j*8,subscribed=style)
 
 # --- 使用示例 ---
 if __name__ == "__main__":

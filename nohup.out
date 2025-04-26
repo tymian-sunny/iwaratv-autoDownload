@@ -1,0 +1,1535 @@
+config.json路径为: /home/code/2025/iwaratv-autoDownload/config.json
+download_log.json路径为: /home/code/2025/iwaratv-autoDownload/download_log.json
+API 登录失败: HTTPSConnectionPool(host='api.iwara.tv', port=443): Max retries exceeded with url: /user/login (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+无法继续下载，登录失败: API登录失败: HTTPSConnectionPool(host='api.iwara.tv', port=443): Max retries exceeded with url: /user/login (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+[警告] 尝试在未登录状态下获取视频列表
+[DEBUG] get_videos 响应: 200
+开始处理 8 个视频的下载任务...
+[DEBUG] get_video cDIwMwdND0XSyq 响应: 200
+视频 cDIwMwdND0XSyq 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/cDIwMwdND0XSyq.jpg，跳过下载。
+缩略图 cDIwMwdND0XSyq 下载成功: /srv/video_downloader/data/downloads/thumbnails/cDIwMwdND0XSyq.jpg
+[DEBUG] get_video eCarUfeMBwcQrV 响应: 200
+视频 eCarUfeMBwcQrV 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/eCarUfeMBwcQrV.jpg，跳过下载。
+缩略图 eCarUfeMBwcQrV 下载成功: /srv/video_downloader/data/downloads/thumbnails/eCarUfeMBwcQrV.jpg
+等待所有初始下载线程完成...
+[DEBUG] get_video LaKO3uOnYzq8HV 响应: 200
+开始下载视频 LaKO3uOnYzq8HV 的缩略图...
+[DEBUG] get_video XDPpBL6nLGtbuC 响应: 200
+[DEBUG] get_video bCz9Q6UYopn4NH 响应: 200
+视频 XDPpBL6nLGtbuC 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/XDPpBL6nLGtbuC.jpg，跳过下载。
+缩略图 XDPpBL6nLGtbuC 下载成功: /srv/video_downloader/data/downloads/thumbnails/XDPpBL6nLGtbuC.jpg
+视频 bCz9Q6UYopn4NH 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/bCz9Q6UYopn4NH.jpg，跳过下载。
+缩略图 bCz9Q6UYopn4NH 下载成功: /srv/video_downloader/data/downloads/thumbnails/bCz9Q6UYopn4NH.jpg
+[DEBUG] get_video xZNOqn7e11dgJ1 响应: 200
+视频 xZNOqn7e11dgJ1 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/xZNOqn7e11dgJ1.jpg，跳过下载。
+缩略图 xZNOqn7e11dgJ1 下载成功: /srv/video_downloader/data/downloads/thumbnails/xZNOqn7e11dgJ1.jpg
+[DEBUG] get_video WusvMZcCVXWj5t 响应: 200
+视频 WusvMZcCVXWj5t 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/WusvMZcCVXWj5t.jpg，跳过下载。
+缩略图 WusvMZcCVXWj5t 下载成功: /srv/video_downloader/data/downloads/thumbnails/WusvMZcCVXWj5t.jpg
+[DEBUG] get_video cDIwMwdND0XSyq 响应: 200
+下载视频 cDIwMwdND0XSyq 最终失败: 解析视频 cDIwMwdND0XSyq 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video wsA4s6laZtLyRS 响应: 200
+视频 wsA4s6laZtLyRS 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/wsA4s6laZtLyRS.jpg，跳过下载。
+缩略图 wsA4s6laZtLyRS 下载成功: /srv/video_downloader/data/downloads/thumbnails/wsA4s6laZtLyRS.jpg
+[DEBUG] get_video eCarUfeMBwcQrV 响应: 200
+下载视频 eCarUfeMBwcQrV 最终失败: 解析视频 eCarUfeMBwcQrV 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video XDPpBL6nLGtbuC 响应: 200
+下载视频 XDPpBL6nLGtbuC 最终失败: 解析视频 XDPpBL6nLGtbuC 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video bCz9Q6UYopn4NH 响应: 200
+下载视频 bCz9Q6UYopn4NH 最终失败: 解析视频 bCz9Q6UYopn4NH 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video xZNOqn7e11dgJ1 响应: 200
+下载视频 xZNOqn7e11dgJ1 最终失败: 解析视频 xZNOqn7e11dgJ1 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video wsA4s6laZtLyRS 响应: 200
+下载视频 wsA4s6laZtLyRS 最终失败: 解析视频 wsA4s6laZtLyRS 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+视频 LaKO3uOnYzq8HV 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/LaKO3uOnYzq8HV.jpg
+缩略图 LaKO3uOnYzq8HV 下载成功: /srv/video_downloader/data/downloads/thumbnails/LaKO3uOnYzq8HV.jpg
+[DEBUG] get_video WusvMZcCVXWj5t 响应: 200
+下载视频 WusvMZcCVXWj5t 最终失败: 解析视频 WusvMZcCVXWj5t 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video LaKO3uOnYzq8HV 响应: 200
+下载视频 LaKO3uOnYzq8HV 最终失败: 解析视频 LaKO3uOnYzq8HV 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 LaKO3uOnYzq8HV 的下载状态: 失败
+所有初始下载线程已结束。
+批量下载任务处理完毕。
+[警告] 尝试在未登录状态下获取视频列表
+[DEBUG] get_videos 响应: 200
+开始处理 16 个视频的下载任务...
+[DEBUG] get_video xZNOqn7e11dgJ1 响应: 200
+视频 xZNOqn7e11dgJ1 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/xZNOqn7e11dgJ1.jpg，跳过下载。
+缩略图 xZNOqn7e11dgJ1 下载成功: /srv/video_downloader/data/downloads/thumbnails/xZNOqn7e11dgJ1.jpg
+[DEBUG] get_video bCz9Q6UYopn4NH 响应: 200
+视频 bCz9Q6UYopn4NH 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/bCz9Q6UYopn4NH.jpg，跳过下载。
+缩略图 bCz9Q6UYopn4NH 下载成功: /srv/video_downloader/data/downloads/thumbnails/bCz9Q6UYopn4NH.jpg
+[DEBUG] get_video cDIwMwdND0XSyq 响应: 200
+视频 cDIwMwdND0XSyq 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/cDIwMwdND0XSyq.jpg，跳过下载。
+缩略图 cDIwMwdND0XSyq 下载成功: /srv/video_downloader/data/downloads/thumbnails/cDIwMwdND0XSyq.jpg
+[DEBUG] get_video eCarUfeMBwcQrV 响应: 200
+视频 eCarUfeMBwcQrV 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/eCarUfeMBwcQrV.jpg，跳过下载。
+缩略图 eCarUfeMBwcQrV 下载成功: /srv/video_downloader/data/downloads/thumbnails/eCarUfeMBwcQrV.jpg
+[DEBUG] get_video xZNOqn7e11dgJ1 响应: 200
+下载视频 xZNOqn7e11dgJ1 最终失败: 解析视频 xZNOqn7e11dgJ1 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 8pBWeXewBiuiIU 响应: 200
+视频 8pBWeXewBiuiIU 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/8pBWeXewBiuiIU.jpg，跳过下载。
+缩略图 8pBWeXewBiuiIU 下载成功: /srv/video_downloader/data/downloads/thumbnails/8pBWeXewBiuiIU.jpg
+[DEBUG] get_video LaKO3uOnYzq8HV 响应: 200
+视频 LaKO3uOnYzq8HV 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/LaKO3uOnYzq8HV.jpg，跳过下载。
+缩略图 LaKO3uOnYzq8HV 下载成功: /srv/video_downloader/data/downloads/thumbnails/LaKO3uOnYzq8HV.jpg
+[DEBUG] get_video bCz9Q6UYopn4NH 响应: 200
+下载视频 bCz9Q6UYopn4NH 最终失败: 解析视频 bCz9Q6UYopn4NH 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+等待所有初始下载线程完成...
+[DEBUG] get_video XDPpBL6nLGtbuC 响应: 200
+视频 XDPpBL6nLGtbuC 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/XDPpBL6nLGtbuC.jpg，跳过下载。
+缩略图 XDPpBL6nLGtbuC 下载成功: /srv/video_downloader/data/downloads/thumbnails/XDPpBL6nLGtbuC.jpg
+[DEBUG] get_video cDIwMwdND0XSyq 响应: 200
+下载视频 cDIwMwdND0XSyq 最终失败: 解析视频 cDIwMwdND0XSyq 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video WusvMZcCVXWj5t 响应: 200
+视频 WusvMZcCVXWj5t 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/WusvMZcCVXWj5t.jpg，跳过下载。
+缩略图 WusvMZcCVXWj5t 下载成功: /srv/video_downloader/data/downloads/thumbnails/WusvMZcCVXWj5t.jpg
+[DEBUG] get_video wsA4s6laZtLyRS 响应: 200
+视频 wsA4s6laZtLyRS 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/wsA4s6laZtLyRS.jpg，跳过下载。
+缩略图 wsA4s6laZtLyRS 下载成功: /srv/video_downloader/data/downloads/thumbnails/wsA4s6laZtLyRS.jpg
+[DEBUG] get_video 42FjKe2XtPwLPn 响应: 200
+视频 42FjKe2XtPwLPn 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/42FjKe2XtPwLPn.jpg，跳过下载。
+缩略图 42FjKe2XtPwLPn 下载成功: /srv/video_downloader/data/downloads/thumbnails/42FjKe2XtPwLPn.jpg
+[DEBUG] get_video PxoW5q5YCWKFxG 响应: 200
+视频 PxoW5q5YCWKFxG 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/PxoW5q5YCWKFxG.jpg，跳过下载。
+缩略图 PxoW5q5YCWKFxG 下载成功: /srv/video_downloader/data/downloads/thumbnails/PxoW5q5YCWKFxG.jpg
+[DEBUG] get_video aQjZx1aqMA4UkM 响应: 200
+视频 aQjZx1aqMA4UkM 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/aQjZx1aqMA4UkM.jpg，跳过下载。
+缩略图 aQjZx1aqMA4UkM 下载成功: /srv/video_downloader/data/downloads/thumbnails/aQjZx1aqMA4UkM.jpg
+[DEBUG] get_video 43Z3wtSdKHQvUM 响应: 200
+视频 43Z3wtSdKHQvUM 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/43Z3wtSdKHQvUM.jpg，跳过下载。
+缩略图 43Z3wtSdKHQvUM 下载成功: /srv/video_downloader/data/downloads/thumbnails/43Z3wtSdKHQvUM.jpg
+[DEBUG] get_video 8pBWeXewBiuiIU 响应: 200
+下载视频 8pBWeXewBiuiIU 最终失败: 解析视频 8pBWeXewBiuiIU 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video ydWVuBcYUqhFkW 响应: 200
+[DEBUG] get_video LaKO3uOnYzq8HV 响应: 200
+下载视频 LaKO3uOnYzq8HV 最终失败: 解析视频 LaKO3uOnYzq8HV 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频 ydWVuBcYUqhFkW 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/ydWVuBcYUqhFkW.jpg，跳过下载。
+缩略图 ydWVuBcYUqhFkW 下载成功: /srv/video_downloader/data/downloads/thumbnails/ydWVuBcYUqhFkW.jpg
+[日志] 更新视频 LaKO3uOnYzq8HV 的下载状态: 失败
+[DEBUG] get_video XDPpBL6nLGtbuC 响应: 200
+下载视频 XDPpBL6nLGtbuC 最终失败: 解析视频 XDPpBL6nLGtbuC 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video SBG0TwjN8baOlR 响应: 200
+视频 SBG0TwjN8baOlR 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/SBG0TwjN8baOlR.jpg，跳过下载。
+缩略图 SBG0TwjN8baOlR 下载成功: /srv/video_downloader/data/downloads/thumbnails/SBG0TwjN8baOlR.jpg
+[DEBUG] get_video KU7TaGW053jNP4 响应: 200
+[DEBUG] get_video WusvMZcCVXWj5t 响应: 200
+下载视频 WusvMZcCVXWj5t 最终失败: 解析视频 WusvMZcCVXWj5t 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频 KU7TaGW053jNP4 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/KU7TaGW053jNP4.jpg，跳过下载。
+缩略图 KU7TaGW053jNP4 下载成功: /srv/video_downloader/data/downloads/thumbnails/KU7TaGW053jNP4.jpg
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video eCarUfeMBwcQrV 响应: 200
+下载视频 eCarUfeMBwcQrV 最终失败: 解析视频 eCarUfeMBwcQrV 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video wsA4s6laZtLyRS 响应: 200
+下载视频 wsA4s6laZtLyRS 最终失败: 解析视频 wsA4s6laZtLyRS 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 42FjKe2XtPwLPn 响应: 200
+下载视频 42FjKe2XtPwLPn 最终失败: 解析视频 42FjKe2XtPwLPn 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video PxoW5q5YCWKFxG 响应: 200
+下载视频 PxoW5q5YCWKFxG 最终失败: 解析视频 PxoW5q5YCWKFxG 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+视频已经下载完成，修改json文件失败
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 43Z3wtSdKHQvUM 响应: 200
+下载视频 43Z3wtSdKHQvUM 最终失败: 解析视频 43Z3wtSdKHQvUM 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video aQjZx1aqMA4UkM 响应: 200
+下载视频 aQjZx1aqMA4UkM 最终失败: 解析视频 aQjZx1aqMA4UkM 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video ydWVuBcYUqhFkW 响应: 200
+下载视频 ydWVuBcYUqhFkW 最终失败: 解析视频 ydWVuBcYUqhFkW 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video SBG0TwjN8baOlR 响应: 200
+下载视频 SBG0TwjN8baOlR 最终失败: 解析视频 SBG0TwjN8baOlR 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video KU7TaGW053jNP4 响应: 200
+下载视频 KU7TaGW053jNP4 最终失败: 解析视频 KU7TaGW053jNP4 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+所有初始下载线程已结束。
+批量下载任务处理完毕。
+[警告] 尝试在未登录状态下获取视频列表
+[DEBUG] get_videos 响应: 200
+开始处理 24 个视频的下载任务...
+[DEBUG] get_video xZNOqn7e11dgJ1 响应: 200
+视频 xZNOqn7e11dgJ1 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/xZNOqn7e11dgJ1.jpg，跳过下载。
+缩略图 xZNOqn7e11dgJ1 下载成功: /srv/video_downloader/data/downloads/thumbnails/xZNOqn7e11dgJ1.jpg
+[DEBUG] get_video bCz9Q6UYopn4NH 响应: 200
+视频 bCz9Q6UYopn4NH 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/bCz9Q6UYopn4NH.jpg，跳过下载。
+缩略图 bCz9Q6UYopn4NH 下载成功: /srv/video_downloader/data/downloads/thumbnails/bCz9Q6UYopn4NH.jpg
+[DEBUG] get_video cDIwMwdND0XSyq 响应: 200
+视频 cDIwMwdND0XSyq 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/cDIwMwdND0XSyq.jpg，跳过下载。
+缩略图 cDIwMwdND0XSyq 下载成功: /srv/video_downloader/data/downloads/thumbnails/cDIwMwdND0XSyq.jpg
+[DEBUG] get_video eCarUfeMBwcQrV 响应: 200
+视频 eCarUfeMBwcQrV 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/eCarUfeMBwcQrV.jpg，跳过下载。
+缩略图 eCarUfeMBwcQrV 下载成功: /srv/video_downloader/data/downloads/thumbnails/eCarUfeMBwcQrV.jpg
+[DEBUG] get_video xZNOqn7e11dgJ1 响应: 200
+下载视频 xZNOqn7e11dgJ1 最终失败: 解析视频 xZNOqn7e11dgJ1 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video LaKO3uOnYzq8HV 响应: 200
+视频 LaKO3uOnYzq8HV 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/LaKO3uOnYzq8HV.jpg，跳过下载。
+缩略图 LaKO3uOnYzq8HV 下载成功: /srv/video_downloader/data/downloads/thumbnails/LaKO3uOnYzq8HV.jpg
+[DEBUG] get_video bCz9Q6UYopn4NH 响应: 200
+下载视频 bCz9Q6UYopn4NH 最终失败: 解析视频 bCz9Q6UYopn4NH 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video XDPpBL6nLGtbuC 响应: 200
+视频 XDPpBL6nLGtbuC 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/XDPpBL6nLGtbuC.jpg，跳过下载。
+缩略图 XDPpBL6nLGtbuC 下载成功: /srv/video_downloader/data/downloads/thumbnails/XDPpBL6nLGtbuC.jpg
+[DEBUG] get_video cDIwMwdND0XSyq 响应: 200
+下载视频 cDIwMwdND0XSyq 最终失败: 解析视频 cDIwMwdND0XSyq 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video WusvMZcCVXWj5t 响应: 200
+视频 WusvMZcCVXWj5t 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/WusvMZcCVXWj5t.jpg，跳过下载。
+缩略图 WusvMZcCVXWj5t 下载成功: /srv/video_downloader/data/downloads/thumbnails/WusvMZcCVXWj5t.jpg
+[DEBUG] get_video eCarUfeMBwcQrV 响应: 200
+下载视频 eCarUfeMBwcQrV 最终失败: 解析视频 eCarUfeMBwcQrV 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video LaKO3uOnYzq8HV 响应: 200
+下载视频 LaKO3uOnYzq8HV 最终失败: 解析视频 LaKO3uOnYzq8HV 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 LaKO3uOnYzq8HV 的下载状态: 失败
+[DEBUG] get_video wsA4s6laZtLyRS 响应: 200
+视频 wsA4s6laZtLyRS 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/wsA4s6laZtLyRS.jpg，跳过下载。
+缩略图 wsA4s6laZtLyRS 下载成功: /srv/video_downloader/data/downloads/thumbnails/wsA4s6laZtLyRS.jpg
+[DEBUG] get_video 42FjKe2XtPwLPn 响应: 200
+视频 42FjKe2XtPwLPn 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/42FjKe2XtPwLPn.jpg，跳过下载。
+缩略图 42FjKe2XtPwLPn 下载成功: /srv/video_downloader/data/downloads/thumbnails/42FjKe2XtPwLPn.jpg
+[DEBUG] get_video XDPpBL6nLGtbuC 响应: 200
+下载视频 XDPpBL6nLGtbuC 最终失败: 解析视频 XDPpBL6nLGtbuC 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 8pBWeXewBiuiIU 响应: 200
+视频 8pBWeXewBiuiIU 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/8pBWeXewBiuiIU.jpg，跳过下载。
+缩略图 8pBWeXewBiuiIU 下载成功: /srv/video_downloader/data/downloads/thumbnails/8pBWeXewBiuiIU.jpg
+[DEBUG] get_video WusvMZcCVXWj5t 响应: 200
+下载视频 WusvMZcCVXWj5t 最终失败: 解析视频 WusvMZcCVXWj5t 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video PxoW5q5YCWKFxG 响应: 200
+视频 PxoW5q5YCWKFxG 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/PxoW5q5YCWKFxG.jpg，跳过下载。
+缩略图 PxoW5q5YCWKFxG 下载成功: /srv/video_downloader/data/downloads/thumbnails/PxoW5q5YCWKFxG.jpg
+[DEBUG] get_video wsA4s6laZtLyRS 响应: 200
+下载视频 wsA4s6laZtLyRS 最终失败: 解析视频 wsA4s6laZtLyRS 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video aQjZx1aqMA4UkM 响应: 200
+视频 aQjZx1aqMA4UkM 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/aQjZx1aqMA4UkM.jpg，跳过下载。
+缩略图 aQjZx1aqMA4UkM 下载成功: /srv/video_downloader/data/downloads/thumbnails/aQjZx1aqMA4UkM.jpg
+[DEBUG] get_video 43Z3wtSdKHQvUM 响应: 200
+视频 43Z3wtSdKHQvUM 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/43Z3wtSdKHQvUM.jpg，跳过下载。
+缩略图 43Z3wtSdKHQvUM 下载成功: /srv/video_downloader/data/downloads/thumbnails/43Z3wtSdKHQvUM.jpg
+[DEBUG] get_video 42FjKe2XtPwLPn 响应: 200
+下载视频 42FjKe2XtPwLPn 最终失败: 解析视频 42FjKe2XtPwLPn 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 8pBWeXewBiuiIU 响应: 200
+下载视频 8pBWeXewBiuiIU 最终失败: 解析视频 8pBWeXewBiuiIU 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video ydWVuBcYUqhFkW 响应: 200
+视频 ydWVuBcYUqhFkW 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/ydWVuBcYUqhFkW.jpg，跳过下载。
+缩略图 ydWVuBcYUqhFkW 下载成功: /srv/video_downloader/data/downloads/thumbnails/ydWVuBcYUqhFkW.jpg
+[DEBUG] get_video PxoW5q5YCWKFxG 响应: 200
+下载视频 PxoW5q5YCWKFxG 最终失败: 解析视频 PxoW5q5YCWKFxG 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video aQjZx1aqMA4UkM 响应: 200
+下载视频 aQjZx1aqMA4UkM 最终失败: 解析视频 aQjZx1aqMA4UkM 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video SBG0TwjN8baOlR 响应: 200
+视频已经下载完成，修改json文件失败
+视频 SBG0TwjN8baOlR 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/SBG0TwjN8baOlR.jpg，跳过下载。
+缩略图 SBG0TwjN8baOlR 下载成功: /srv/video_downloader/data/downloads/thumbnails/SBG0TwjN8baOlR.jpg
+[DEBUG] get_video KU7TaGW053jNP4 响应: 200
+视频 KU7TaGW053jNP4 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/KU7TaGW053jNP4.jpg，跳过下载。
+缩略图 KU7TaGW053jNP4 下载成功: /srv/video_downloader/data/downloads/thumbnails/KU7TaGW053jNP4.jpg
+[DEBUG] get_video 43Z3wtSdKHQvUM 响应: 200
+下载视频 43Z3wtSdKHQvUM 最终失败: 解析视频 43Z3wtSdKHQvUM 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video NjD6YKc4I8HAld 响应: 200
+[DEBUG] get_video ydWVuBcYUqhFkW 响应: 200
+下载视频 ydWVuBcYUqhFkW 最终失败: 解析视频 ydWVuBcYUqhFkW 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频 NjD6YKc4I8HAld 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/NjD6YKc4I8HAld.jpg，跳过下载。
+缩略图 NjD6YKc4I8HAld 下载成功: /srv/video_downloader/data/downloads/thumbnails/NjD6YKc4I8HAld.jpg
+视频已经下载完成，修改json文件失败
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video u89aHJVbcfJ9IR 响应: 200
+视频 u89aHJVbcfJ9IR 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/u89aHJVbcfJ9IR.jpg，跳过下载。
+缩略图 u89aHJVbcfJ9IR 下载成功: /srv/video_downloader/data/downloads/thumbnails/u89aHJVbcfJ9IR.jpg
+[DEBUG] get_video 4gkdpKlzsDBF8y 响应: 200
+视频 4gkdpKlzsDBF8y 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/4gkdpKlzsDBF8y.jpg，跳过下载。
+缩略图 4gkdpKlzsDBF8y 下载成功: /srv/video_downloader/data/downloads/thumbnails/4gkdpKlzsDBF8y.jpg
+[DEBUG] get_video KU7TaGW053jNP4 响应: 200
+下载视频 KU7TaGW053jNP4 最终失败: 解析视频 KU7TaGW053jNP4 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video SBG0TwjN8baOlR 响应: 200
+下载视频 SBG0TwjN8baOlR 最终失败: 解析视频 SBG0TwjN8baOlR 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video Hby8SNRbTrlFce 响应: 200
+视频 Hby8SNRbTrlFce 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/Hby8SNRbTrlFce.jpg，跳过下载。
+缩略图 Hby8SNRbTrlFce 下载成功: /srv/video_downloader/data/downloads/thumbnails/Hby8SNRbTrlFce.jpg
+[DEBUG] get_video NjD6YKc4I8HAld 响应: 200
+下载视频 NjD6YKc4I8HAld 最终失败: 解析视频 NjD6YKc4I8HAld 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video IcYcazCjKB0o5F 响应: 200
+视频 IcYcazCjKB0o5F 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/IcYcazCjKB0o5F.jpg，跳过下载。
+缩略图 IcYcazCjKB0o5F 下载成功: /srv/video_downloader/data/downloads/thumbnails/IcYcazCjKB0o5F.jpg
+等待所有初始下载线程完成...
+[DEBUG] get_video 9OboHilmvOSuec 响应: 200
+视频 9OboHilmvOSuec 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/9OboHilmvOSuec.jpg，跳过下载。
+缩略图 9OboHilmvOSuec 下载成功: /srv/video_downloader/data/downloads/thumbnails/9OboHilmvOSuec.jpg
+[DEBUG] get_video 4gkdpKlzsDBF8y 响应: 200
+下载视频 4gkdpKlzsDBF8y 最终失败: 解析视频 4gkdpKlzsDBF8y 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video u89aHJVbcfJ9IR 响应: 200
+视频已经下载完成，修改json文件失败
+下载视频 u89aHJVbcfJ9IR 最终失败: 解析视频 u89aHJVbcfJ9IR 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 0Z0yMhEfYHpRkB 响应: 200
+视频 0Z0yMhEfYHpRkB 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/0Z0yMhEfYHpRkB.jpg，跳过下载。
+缩略图 0Z0yMhEfYHpRkB 下载成功: /srv/video_downloader/data/downloads/thumbnails/0Z0yMhEfYHpRkB.jpg
+[DEBUG] get_video 60vl1ooumEw6cv 响应: 200
+视频 60vl1ooumEw6cv 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/60vl1ooumEw6cv.jpg，跳过下载。
+缩略图 60vl1ooumEw6cv 下载成功: /srv/video_downloader/data/downloads/thumbnails/60vl1ooumEw6cv.jpg
+[DEBUG] get_video Hby8SNRbTrlFce 响应: 200
+下载视频 Hby8SNRbTrlFce 最终失败: 解析视频 Hby8SNRbTrlFce 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 Hby8SNRbTrlFce 的下载状态: 失败
+[DEBUG] get_video 9OboHilmvOSuec 响应: 200
+下载视频 9OboHilmvOSuec 最终失败: 解析视频 9OboHilmvOSuec 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video IcYcazCjKB0o5F 响应: 200
+下载视频 IcYcazCjKB0o5F 最终失败: 解析视频 IcYcazCjKB0o5F 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 0Z0yMhEfYHpRkB 响应: 200
+下载视频 0Z0yMhEfYHpRkB 最终失败: 解析视频 0Z0yMhEfYHpRkB 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 60vl1ooumEw6cv 响应: 200
+下载视频 60vl1ooumEw6cv 最终失败: 解析视频 60vl1ooumEw6cv 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+所有初始下载线程已结束。
+批量下载任务处理完毕。
+[警告] 尝试在未登录状态下获取视频列表
+[DEBUG] get_videos 响应: 200
+开始处理 32 个视频的下载任务...
+[DEBUG] get_video bCz9Q6UYopn4NH 响应: 200
+视频 bCz9Q6UYopn4NH 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/bCz9Q6UYopn4NH.jpg，跳过下载。
+缩略图 bCz9Q6UYopn4NH 下载成功: /srv/video_downloader/data/downloads/thumbnails/bCz9Q6UYopn4NH.jpg
+[DEBUG] get_video xZNOqn7e11dgJ1 响应: 200
+视频 xZNOqn7e11dgJ1 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/xZNOqn7e11dgJ1.jpg，跳过下载。
+缩略图 xZNOqn7e11dgJ1 下载成功: /srv/video_downloader/data/downloads/thumbnails/xZNOqn7e11dgJ1.jpg
+[DEBUG] get_video cDIwMwdND0XSyq 响应: 200
+视频 cDIwMwdND0XSyq 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/cDIwMwdND0XSyq.jpg，跳过下载。
+缩略图 cDIwMwdND0XSyq 下载成功: /srv/video_downloader/data/downloads/thumbnails/cDIwMwdND0XSyq.jpg
+[DEBUG] get_video eCarUfeMBwcQrV 响应: 200
+视频 eCarUfeMBwcQrV 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/eCarUfeMBwcQrV.jpg，跳过下载。
+缩略图 eCarUfeMBwcQrV 下载成功: /srv/video_downloader/data/downloads/thumbnails/eCarUfeMBwcQrV.jpg
+[DEBUG] get_video LaKO3uOnYzq8HV 响应: 200
+视频 LaKO3uOnYzq8HV 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/LaKO3uOnYzq8HV.jpg，跳过下载。
+缩略图 LaKO3uOnYzq8HV 下载成功: /srv/video_downloader/data/downloads/thumbnails/LaKO3uOnYzq8HV.jpg
+[DEBUG] get_video bCz9Q6UYopn4NH 响应: 200
+下载视频 bCz9Q6UYopn4NH 最终失败: 解析视频 bCz9Q6UYopn4NH 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video xZNOqn7e11dgJ1 响应: 200
+下载视频 xZNOqn7e11dgJ1 最终失败: 解析视频 xZNOqn7e11dgJ1 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video XDPpBL6nLGtbuC 响应: 200
+视频 XDPpBL6nLGtbuC 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/XDPpBL6nLGtbuC.jpg，跳过下载。
+缩略图 XDPpBL6nLGtbuC 下载成功: /srv/video_downloader/data/downloads/thumbnails/XDPpBL6nLGtbuC.jpg
+[DEBUG] get_video cDIwMwdND0XSyq 响应: 200
+下载视频 cDIwMwdND0XSyq 最终失败: 解析视频 cDIwMwdND0XSyq 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video WusvMZcCVXWj5t 响应: 200
+视频 WusvMZcCVXWj5t 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/WusvMZcCVXWj5t.jpg，跳过下载。
+缩略图 WusvMZcCVXWj5t 下载成功: /srv/video_downloader/data/downloads/thumbnails/WusvMZcCVXWj5t.jpg
+[DEBUG] get_video eCarUfeMBwcQrV 响应: 200
+下载视频 eCarUfeMBwcQrV 最终失败: 解析视频 eCarUfeMBwcQrV 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video wsA4s6laZtLyRS 响应: 200
+视频 wsA4s6laZtLyRS 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/wsA4s6laZtLyRS.jpg，跳过下载。
+缩略图 wsA4s6laZtLyRS 下载成功: /srv/video_downloader/data/downloads/thumbnails/wsA4s6laZtLyRS.jpg
+[DEBUG] get_video LaKO3uOnYzq8HV 响应: 200
+下载视频 LaKO3uOnYzq8HV 最终失败: 解析视频 LaKO3uOnYzq8HV 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 LaKO3uOnYzq8HV 的下载状态: 失败
+[DEBUG] get_video 42FjKe2XtPwLPn 响应: 200
+视频 42FjKe2XtPwLPn 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/42FjKe2XtPwLPn.jpg，跳过下载。
+缩略图 42FjKe2XtPwLPn 下载成功: /srv/video_downloader/data/downloads/thumbnails/42FjKe2XtPwLPn.jpg
+[DEBUG] get_video XDPpBL6nLGtbuC 响应: 200
+下载视频 XDPpBL6nLGtbuC 最终失败: 解析视频 XDPpBL6nLGtbuC 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 8pBWeXewBiuiIU 响应: 200
+视频 8pBWeXewBiuiIU 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/8pBWeXewBiuiIU.jpg，跳过下载。
+缩略图 8pBWeXewBiuiIU 下载成功: /srv/video_downloader/data/downloads/thumbnails/8pBWeXewBiuiIU.jpg
+[DEBUG] get_video WusvMZcCVXWj5t 响应: 200
+下载视频 WusvMZcCVXWj5t 最终失败: 解析视频 WusvMZcCVXWj5t 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video PxoW5q5YCWKFxG 响应: 200
+视频 PxoW5q5YCWKFxG 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/PxoW5q5YCWKFxG.jpg，跳过下载。
+缩略图 PxoW5q5YCWKFxG 下载成功: /srv/video_downloader/data/downloads/thumbnails/PxoW5q5YCWKFxG.jpg
+[DEBUG] get_video wsA4s6laZtLyRS 响应: 200
+下载视频 wsA4s6laZtLyRS 最终失败: 解析视频 wsA4s6laZtLyRS 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video aQjZx1aqMA4UkM 响应: 200
+视频 aQjZx1aqMA4UkM 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/aQjZx1aqMA4UkM.jpg，跳过下载。
+缩略图 aQjZx1aqMA4UkM 下载成功: /srv/video_downloader/data/downloads/thumbnails/aQjZx1aqMA4UkM.jpg
+[DEBUG] get_video 42FjKe2XtPwLPn 响应: 200
+下载视频 42FjKe2XtPwLPn 最终失败: 解析视频 42FjKe2XtPwLPn 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 43Z3wtSdKHQvUM 响应: 200
+[DEBUG] get_video 8pBWeXewBiuiIU 响应: 200
+下载视频 8pBWeXewBiuiIU 最终失败: 解析视频 8pBWeXewBiuiIU 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频 43Z3wtSdKHQvUM 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/43Z3wtSdKHQvUM.jpg，跳过下载。
+缩略图 43Z3wtSdKHQvUM 下载成功: /srv/video_downloader/data/downloads/thumbnails/43Z3wtSdKHQvUM.jpg
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video PxoW5q5YCWKFxG 响应: 200
+下载视频 PxoW5q5YCWKFxG 最终失败: 解析视频 PxoW5q5YCWKFxG 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video ydWVuBcYUqhFkW 响应: 200
+视频 ydWVuBcYUqhFkW 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/ydWVuBcYUqhFkW.jpg，跳过下载。
+缩略图 ydWVuBcYUqhFkW 下载成功: /srv/video_downloader/data/downloads/thumbnails/ydWVuBcYUqhFkW.jpg
+[DEBUG] get_video aQjZx1aqMA4UkM 响应: 200
+下载视频 aQjZx1aqMA4UkM 最终失败: 解析视频 aQjZx1aqMA4UkM 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video SBG0TwjN8baOlR 响应: 200
+视频 SBG0TwjN8baOlR 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/SBG0TwjN8baOlR.jpg，跳过下载。
+缩略图 SBG0TwjN8baOlR 下载成功: /srv/video_downloader/data/downloads/thumbnails/SBG0TwjN8baOlR.jpg
+[DEBUG] get_video KU7TaGW053jNP4 响应: 200
+视频 KU7TaGW053jNP4 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/KU7TaGW053jNP4.jpg，跳过下载。
+缩略图 KU7TaGW053jNP4 下载成功: /srv/video_downloader/data/downloads/thumbnails/KU7TaGW053jNP4.jpg
+[DEBUG] get_video NjD6YKc4I8HAld 响应: 200
+视频 NjD6YKc4I8HAld 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/NjD6YKc4I8HAld.jpg，跳过下载。
+缩略图 NjD6YKc4I8HAld 下载成功: /srv/video_downloader/data/downloads/thumbnails/NjD6YKc4I8HAld.jpg
+[DEBUG] get_video 43Z3wtSdKHQvUM 响应: 200
+下载视频 43Z3wtSdKHQvUM 最终失败: 解析视频 43Z3wtSdKHQvUM 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video ydWVuBcYUqhFkW 响应: 200
+下载视频 ydWVuBcYUqhFkW 最终失败: 解析视频 ydWVuBcYUqhFkW 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 4gkdpKlzsDBF8y 响应: 200
+视频 4gkdpKlzsDBF8y 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/4gkdpKlzsDBF8y.jpg，跳过下载。
+缩略图 4gkdpKlzsDBF8y 下载成功: /srv/video_downloader/data/downloads/thumbnails/4gkdpKlzsDBF8y.jpg
+[DEBUG] get_video SBG0TwjN8baOlR 响应: 200
+下载视频 SBG0TwjN8baOlR 最终失败: 解析视频 SBG0TwjN8baOlR 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video u89aHJVbcfJ9IR 响应: 200
+视频 u89aHJVbcfJ9IR 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/u89aHJVbcfJ9IR.jpg，跳过下载。
+缩略图 u89aHJVbcfJ9IR 下载成功: /srv/video_downloader/data/downloads/thumbnails/u89aHJVbcfJ9IR.jpg
+[DEBUG] get_video KU7TaGW053jNP4 响应: 200
+下载视频 KU7TaGW053jNP4 最终失败: 解析视频 KU7TaGW053jNP4 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video NjD6YKc4I8HAld 响应: 200
+下载视频 NjD6YKc4I8HAld 最终失败: 解析视频 NjD6YKc4I8HAld 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video IcYcazCjKB0o5F 响应: 200
+[DEBUG] get_video Hby8SNRbTrlFce 响应: 200
+视频 Hby8SNRbTrlFce 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/Hby8SNRbTrlFce.jpg，跳过下载。
+缩略图 Hby8SNRbTrlFce 下载成功: /srv/video_downloader/data/downloads/thumbnails/Hby8SNRbTrlFce.jpg
+视频 IcYcazCjKB0o5F 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/IcYcazCjKB0o5F.jpg，跳过下载。
+缩略图 IcYcazCjKB0o5F 下载成功: /srv/video_downloader/data/downloads/thumbnails/IcYcazCjKB0o5F.jpg
+[DEBUG] get_video 4gkdpKlzsDBF8y 响应: 200
+下载视频 4gkdpKlzsDBF8y 最终失败: 解析视频 4gkdpKlzsDBF8y 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 9OboHilmvOSuec 响应: 200
+视频 9OboHilmvOSuec 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/9OboHilmvOSuec.jpg，跳过下载。
+缩略图 9OboHilmvOSuec 下载成功: /srv/video_downloader/data/downloads/thumbnails/9OboHilmvOSuec.jpg
+[DEBUG] get_video u89aHJVbcfJ9IR 响应: 200
+下载视频 u89aHJVbcfJ9IR 最终失败: 解析视频 u89aHJVbcfJ9IR 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 0Z0yMhEfYHpRkB 响应: 200
+视频 0Z0yMhEfYHpRkB 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/0Z0yMhEfYHpRkB.jpg，跳过下载。
+缩略图 0Z0yMhEfYHpRkB 下载成功: /srv/video_downloader/data/downloads/thumbnails/0Z0yMhEfYHpRkB.jpg
+[DEBUG] get_video Hby8SNRbTrlFce 响应: 200
+下载视频 Hby8SNRbTrlFce 最终失败: 解析视频 Hby8SNRbTrlFce 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 Hby8SNRbTrlFce 的下载状态: 失败
+[DEBUG] get_video 60vl1ooumEw6cv 响应: 200
+[DEBUG] get_video IcYcazCjKB0o5F 响应: 200
+下载视频 IcYcazCjKB0o5F 最终失败: 解析视频 IcYcazCjKB0o5F 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频 60vl1ooumEw6cv 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/60vl1ooumEw6cv.jpg，跳过下载。
+缩略图 60vl1ooumEw6cv 下载成功: /srv/video_downloader/data/downloads/thumbnails/60vl1ooumEw6cv.jpg
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video jTX5bZcSIkIJaP 响应: 200
+[DEBUG] get_video Aa4bklzmRRgWHh 响应: 200
+视频 jTX5bZcSIkIJaP 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/jTX5bZcSIkIJaP.jpg，跳过下载。
+缩略图 jTX5bZcSIkIJaP 下载成功: /srv/video_downloader/data/downloads/thumbnails/jTX5bZcSIkIJaP.jpg
+视频 Aa4bklzmRRgWHh 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/Aa4bklzmRRgWHh.jpg，跳过下载。
+缩略图 Aa4bklzmRRgWHh 下载成功: /srv/video_downloader/data/downloads/thumbnails/Aa4bklzmRRgWHh.jpg
+[DEBUG] get_video 9OboHilmvOSuec 响应: 200
+下载视频 9OboHilmvOSuec 最终失败: 解析视频 9OboHilmvOSuec 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 0Z0yMhEfYHpRkB 响应: 200
+下载视频 0Z0yMhEfYHpRkB 最终失败: 解析视频 0Z0yMhEfYHpRkB 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video xVO653FIX4XG4L 响应: 200
+视频 xVO653FIX4XG4L 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/xVO653FIX4XG4L.jpg，跳过下载。
+缩略图 xVO653FIX4XG4L 下载成功: /srv/video_downloader/data/downloads/thumbnails/xVO653FIX4XG4L.jpg
+[DEBUG] get_video 60vl1ooumEw6cv 响应: 200
+下载视频 60vl1ooumEw6cv 最终失败: 解析视频 60vl1ooumEw6cv 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video Yrd0FHadVvhyhu 响应: 200
+视频 Yrd0FHadVvhyhu 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/Yrd0FHadVvhyhu.jpg，跳过下载。
+缩略图 Yrd0FHadVvhyhu 下载成功: /srv/video_downloader/data/downloads/thumbnails/Yrd0FHadVvhyhu.jpg
+[DEBUG] get_video Aa4bklzmRRgWHh 响应: 200
+下载视频 Aa4bklzmRRgWHh 最终失败: 解析视频 Aa4bklzmRRgWHh 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video jTX5bZcSIkIJaP 响应: 200
+下载视频 jTX5bZcSIkIJaP 最终失败: 解析视频 jTX5bZcSIkIJaP 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video OZ1JxcIkD13Osh 响应: 200
+视频 OZ1JxcIkD13Osh 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/OZ1JxcIkD13Osh.jpg，跳过下载。
+缩略图 OZ1JxcIkD13Osh 下载成功: /srv/video_downloader/data/downloads/thumbnails/OZ1JxcIkD13Osh.jpg
+等待所有初始下载线程完成...
+[DEBUG] get_video xVO653FIX4XG4L 响应: 200
+下载视频 xVO653FIX4XG4L 最终失败: 解析视频 xVO653FIX4XG4L 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video sC7cX6XcwjVdlg 响应: 200
+视频已经下载完成，修改json文件失败
+视频 sC7cX6XcwjVdlg 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/sC7cX6XcwjVdlg.jpg，跳过下载。
+缩略图 sC7cX6XcwjVdlg 下载成功: /srv/video_downloader/data/downloads/thumbnails/sC7cX6XcwjVdlg.jpg
+[DEBUG] get_video ZkU537XB56eqnm 响应: 200
+视频 ZkU537XB56eqnm 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/ZkU537XB56eqnm.jpg，跳过下载。
+缩略图 ZkU537XB56eqnm 下载成功: /srv/video_downloader/data/downloads/thumbnails/ZkU537XB56eqnm.jpg
+[DEBUG] get_video Yrd0FHadVvhyhu 响应: 200
+下载视频 Yrd0FHadVvhyhu 最终失败: 解析视频 Yrd0FHadVvhyhu 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video Ps5l9dF1Jd5WLP 响应: 200
+视频 Ps5l9dF1Jd5WLP 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/Ps5l9dF1Jd5WLP.jpg，跳过下载。
+缩略图 Ps5l9dF1Jd5WLP 下载成功: /srv/video_downloader/data/downloads/thumbnails/Ps5l9dF1Jd5WLP.jpg
+[DEBUG] get_video OZ1JxcIkD13Osh 响应: 200
+下载视频 OZ1JxcIkD13Osh 最终失败: 解析视频 OZ1JxcIkD13Osh 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video sC7cX6XcwjVdlg 响应: 200
+下载视频 sC7cX6XcwjVdlg 最终失败: 解析视频 sC7cX6XcwjVdlg 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video ZkU537XB56eqnm 响应: 200
+下载视频 ZkU537XB56eqnm 最终失败: 解析视频 ZkU537XB56eqnm 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video Ps5l9dF1Jd5WLP 响应: 200
+下载视频 Ps5l9dF1Jd5WLP 最终失败: 解析视频 Ps5l9dF1Jd5WLP 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+所有初始下载线程已结束。
+批量下载任务处理完毕。
+[警告] 尝试在未登录状态下获取视频列表
+[DEBUG] get_videos 响应: 200
+开始处理 8 个视频的下载任务...
+[DEBUG] get_video 42FjKe2XtPwLPn 响应: 200
+视频 42FjKe2XtPwLPn 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/42FjKe2XtPwLPn.jpg，跳过下载。
+缩略图 42FjKe2XtPwLPn 下载成功: /srv/video_downloader/data/downloads/thumbnails/42FjKe2XtPwLPn.jpg
+[DEBUG] get_video 8pBWeXewBiuiIU 响应: 200
+视频 8pBWeXewBiuiIU 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/8pBWeXewBiuiIU.jpg，跳过下载。
+缩略图 8pBWeXewBiuiIU 下载成功: /srv/video_downloader/data/downloads/thumbnails/8pBWeXewBiuiIU.jpg
+[DEBUG] get_video PxoW5q5YCWKFxG 响应: 200
+视频 PxoW5q5YCWKFxG 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/PxoW5q5YCWKFxG.jpg，跳过下载。
+缩略图 PxoW5q5YCWKFxG 下载成功: /srv/video_downloader/data/downloads/thumbnails/PxoW5q5YCWKFxG.jpg
+[DEBUG] get_video aQjZx1aqMA4UkM 响应: 200
+视频 aQjZx1aqMA4UkM 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/aQjZx1aqMA4UkM.jpg，跳过下载。
+缩略图 aQjZx1aqMA4UkM 下载成功: /srv/video_downloader/data/downloads/thumbnails/aQjZx1aqMA4UkM.jpg
+[DEBUG] get_video 42FjKe2XtPwLPn 响应: 200
+下载视频 42FjKe2XtPwLPn 最终失败: 解析视频 42FjKe2XtPwLPn 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 43Z3wtSdKHQvUM 响应: 200
+视频 43Z3wtSdKHQvUM 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/43Z3wtSdKHQvUM.jpg，跳过下载。
+缩略图 43Z3wtSdKHQvUM 下载成功: /srv/video_downloader/data/downloads/thumbnails/43Z3wtSdKHQvUM.jpg
+[DEBUG] get_video 8pBWeXewBiuiIU 响应: 200
+下载视频 8pBWeXewBiuiIU 最终失败: 解析视频 8pBWeXewBiuiIU 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+等待所有初始下载线程完成...
+[DEBUG] get_video ydWVuBcYUqhFkW 响应: 200
+视频 ydWVuBcYUqhFkW 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/ydWVuBcYUqhFkW.jpg，跳过下载。
+缩略图 ydWVuBcYUqhFkW 下载成功: /srv/video_downloader/data/downloads/thumbnails/ydWVuBcYUqhFkW.jpg
+[DEBUG] get_video PxoW5q5YCWKFxG 响应: 200
+下载视频 PxoW5q5YCWKFxG 最终失败: 解析视频 PxoW5q5YCWKFxG 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video SBG0TwjN8baOlR 响应: 200
+视频 SBG0TwjN8baOlR 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/SBG0TwjN8baOlR.jpg，跳过下载。
+缩略图 SBG0TwjN8baOlR 下载成功: /srv/video_downloader/data/downloads/thumbnails/SBG0TwjN8baOlR.jpg
+[DEBUG] get_video aQjZx1aqMA4UkM 响应: 200
+下载视频 aQjZx1aqMA4UkM 最终失败: 解析视频 aQjZx1aqMA4UkM 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video KU7TaGW053jNP4 响应: 200
+视频 KU7TaGW053jNP4 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/KU7TaGW053jNP4.jpg，跳过下载。
+缩略图 KU7TaGW053jNP4 下载成功: /srv/video_downloader/data/downloads/thumbnails/KU7TaGW053jNP4.jpg
+[DEBUG] get_video 43Z3wtSdKHQvUM 响应: 200
+下载视频 43Z3wtSdKHQvUM 最终失败: 解析视频 43Z3wtSdKHQvUM 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video ydWVuBcYUqhFkW 响应: 200
+下载视频 ydWVuBcYUqhFkW 最终失败: 解析视频 ydWVuBcYUqhFkW 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video SBG0TwjN8baOlR 响应: 200
+下载视频 SBG0TwjN8baOlR 最终失败: 解析视频 SBG0TwjN8baOlR 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video KU7TaGW053jNP4 响应: 200
+下载视频 KU7TaGW053jNP4 最终失败: 解析视频 KU7TaGW053jNP4 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+所有初始下载线程已结束。
+批量下载任务处理完毕。
+[警告] 尝试在未登录状态下获取视频列表
+[DEBUG] get_videos 响应: 200
+开始处理 16 个视频的下载任务...
+[DEBUG] get_video NjD6YKc4I8HAld 响应: 200
+视频 NjD6YKc4I8HAld 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/NjD6YKc4I8HAld.jpg，跳过下载。
+缩略图 NjD6YKc4I8HAld 下载成功: /srv/video_downloader/data/downloads/thumbnails/NjD6YKc4I8HAld.jpg
+[DEBUG] get_video 4gkdpKlzsDBF8y 响应: 200
+视频 4gkdpKlzsDBF8y 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/4gkdpKlzsDBF8y.jpg，跳过下载。
+缩略图 4gkdpKlzsDBF8y 下载成功: /srv/video_downloader/data/downloads/thumbnails/4gkdpKlzsDBF8y.jpg
+[DEBUG] get_video u89aHJVbcfJ9IR 响应: 200
+视频 u89aHJVbcfJ9IR 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/u89aHJVbcfJ9IR.jpg，跳过下载。
+缩略图 u89aHJVbcfJ9IR 下载成功: /srv/video_downloader/data/downloads/thumbnails/u89aHJVbcfJ9IR.jpg
+[DEBUG] get_video Hby8SNRbTrlFce 响应: 200
+视频 Hby8SNRbTrlFce 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/Hby8SNRbTrlFce.jpg，跳过下载。
+缩略图 Hby8SNRbTrlFce 下载成功: /srv/video_downloader/data/downloads/thumbnails/Hby8SNRbTrlFce.jpg
+[DEBUG] get_video NjD6YKc4I8HAld 响应: 200
+下载视频 NjD6YKc4I8HAld 最终失败: 解析视频 NjD6YKc4I8HAld 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video IcYcazCjKB0o5F 响应: 200
+视频 IcYcazCjKB0o5F 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/IcYcazCjKB0o5F.jpg，跳过下载。
+缩略图 IcYcazCjKB0o5F 下载成功: /srv/video_downloader/data/downloads/thumbnails/IcYcazCjKB0o5F.jpg
+[DEBUG] get_video 9OboHilmvOSuec 响应: 200
+视频 9OboHilmvOSuec 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/9OboHilmvOSuec.jpg，跳过下载。
+缩略图 9OboHilmvOSuec 下载成功: /srv/video_downloader/data/downloads/thumbnails/9OboHilmvOSuec.jpg
+[DEBUG] get_video 4gkdpKlzsDBF8y 响应: 200
+下载视频 4gkdpKlzsDBF8y 最终失败: 解析视频 4gkdpKlzsDBF8y 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video u89aHJVbcfJ9IR 响应: 200
+下载视频 u89aHJVbcfJ9IR 最终失败: 解析视频 u89aHJVbcfJ9IR 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 0Z0yMhEfYHpRkB 响应: 200
+视频 0Z0yMhEfYHpRkB 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/0Z0yMhEfYHpRkB.jpg，跳过下载。
+缩略图 0Z0yMhEfYHpRkB 下载成功: /srv/video_downloader/data/downloads/thumbnails/0Z0yMhEfYHpRkB.jpg
+[DEBUG] get_video Hby8SNRbTrlFce 响应: 200
+下载视频 Hby8SNRbTrlFce 最终失败: 解析视频 Hby8SNRbTrlFce 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 Hby8SNRbTrlFce 的下载状态: 失败
+[DEBUG] get_video IcYcazCjKB0o5F 响应: 200
+下载视频 IcYcazCjKB0o5F 最终失败: 解析视频 IcYcazCjKB0o5F 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 60vl1ooumEw6cv 响应: 200
+视频 60vl1ooumEw6cv 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/60vl1ooumEw6cv.jpg，跳过下载。
+缩略图 60vl1ooumEw6cv 下载成功: /srv/video_downloader/data/downloads/thumbnails/60vl1ooumEw6cv.jpg
+[DEBUG] get_video jTX5bZcSIkIJaP 响应: 200
+视频 jTX5bZcSIkIJaP 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/jTX5bZcSIkIJaP.jpg，跳过下载。
+缩略图 jTX5bZcSIkIJaP 下载成功: /srv/video_downloader/data/downloads/thumbnails/jTX5bZcSIkIJaP.jpg
+[DEBUG] get_video 9OboHilmvOSuec 响应: 200
+下载视频 9OboHilmvOSuec 最终失败: 解析视频 9OboHilmvOSuec 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video Aa4bklzmRRgWHh 响应: 200
+视频 Aa4bklzmRRgWHh 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/Aa4bklzmRRgWHh.jpg，跳过下载。
+缩略图 Aa4bklzmRRgWHh 下载成功: /srv/video_downloader/data/downloads/thumbnails/Aa4bklzmRRgWHh.jpg
+[DEBUG] get_video 0Z0yMhEfYHpRkB 响应: 200
+下载视频 0Z0yMhEfYHpRkB 最终失败: 解析视频 0Z0yMhEfYHpRkB 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video xVO653FIX4XG4L 响应: 200
+视频 xVO653FIX4XG4L 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/xVO653FIX4XG4L.jpg，跳过下载。
+缩略图 xVO653FIX4XG4L 下载成功: /srv/video_downloader/data/downloads/thumbnails/xVO653FIX4XG4L.jpg
+[DEBUG] get_video 60vl1ooumEw6cv 响应: 200
+下载视频 60vl1ooumEw6cv 最终失败: 解析视频 60vl1ooumEw6cv 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video Yrd0FHadVvhyhu 响应: 200
+[DEBUG] get_video jTX5bZcSIkIJaP 响应: 200
+视频 Yrd0FHadVvhyhu 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/Yrd0FHadVvhyhu.jpg，跳过下载。
+缩略图 Yrd0FHadVvhyhu 下载成功: /srv/video_downloader/data/downloads/thumbnails/Yrd0FHadVvhyhu.jpg
+下载视频 jTX5bZcSIkIJaP 最终失败: 解析视频 jTX5bZcSIkIJaP 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video Aa4bklzmRRgWHh 响应: 200
+下载视频 Aa4bklzmRRgWHh 最终失败: 解析视频 Aa4bklzmRRgWHh 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video OZ1JxcIkD13Osh 响应: 200
+视频 OZ1JxcIkD13Osh 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/OZ1JxcIkD13Osh.jpg，跳过下载。
+缩略图 OZ1JxcIkD13Osh 下载成功: /srv/video_downloader/data/downloads/thumbnails/OZ1JxcIkD13Osh.jpg
+等待所有初始下载线程完成...
+[DEBUG] get_video sC7cX6XcwjVdlg 响应: 200
+视频 sC7cX6XcwjVdlg 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/sC7cX6XcwjVdlg.jpg，跳过下载。
+缩略图 sC7cX6XcwjVdlg 下载成功: /srv/video_downloader/data/downloads/thumbnails/sC7cX6XcwjVdlg.jpg
+[DEBUG] get_video xVO653FIX4XG4L 响应: 200
+下载视频 xVO653FIX4XG4L 最终失败: 解析视频 xVO653FIX4XG4L 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video ZkU537XB56eqnm 响应: 200
+视频 ZkU537XB56eqnm 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/ZkU537XB56eqnm.jpg，跳过下载。
+缩略图 ZkU537XB56eqnm 下载成功: /srv/video_downloader/data/downloads/thumbnails/ZkU537XB56eqnm.jpg
+[DEBUG] get_video Yrd0FHadVvhyhu 响应: 200
+下载视频 Yrd0FHadVvhyhu 最终失败: 解析视频 Yrd0FHadVvhyhu 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video Ps5l9dF1Jd5WLP 响应: 200
+视频 Ps5l9dF1Jd5WLP 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/Ps5l9dF1Jd5WLP.jpg，跳过下载。
+缩略图 Ps5l9dF1Jd5WLP 下载成功: /srv/video_downloader/data/downloads/thumbnails/Ps5l9dF1Jd5WLP.jpg
+[DEBUG] get_video OZ1JxcIkD13Osh 响应: 200
+下载视频 OZ1JxcIkD13Osh 最终失败: 解析视频 OZ1JxcIkD13Osh 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video sC7cX6XcwjVdlg 响应: 200
+下载视频 sC7cX6XcwjVdlg 最终失败: 解析视频 sC7cX6XcwjVdlg 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video ZkU537XB56eqnm 响应: 200
+下载视频 ZkU537XB56eqnm 最终失败: 解析视频 ZkU537XB56eqnm 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video Ps5l9dF1Jd5WLP 响应: 200
+下载视频 Ps5l9dF1Jd5WLP 最终失败: 解析视频 Ps5l9dF1Jd5WLP 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+所有初始下载线程已结束。
+批量下载任务处理完毕。
+[警告] 尝试在未登录状态下获取视频列表
+[DEBUG] get_videos 响应: 200
+开始处理 24 个视频的下载任务...
+[DEBUG] get_video jTX5bZcSIkIJaP 响应: 200
+视频 jTX5bZcSIkIJaP 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/jTX5bZcSIkIJaP.jpg，跳过下载。
+缩略图 jTX5bZcSIkIJaP 下载成功: /srv/video_downloader/data/downloads/thumbnails/jTX5bZcSIkIJaP.jpg
+[DEBUG] get_video Aa4bklzmRRgWHh 响应: 200
+视频 Aa4bklzmRRgWHh 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/Aa4bklzmRRgWHh.jpg，跳过下载。
+缩略图 Aa4bklzmRRgWHh 下载成功: /srv/video_downloader/data/downloads/thumbnails/Aa4bklzmRRgWHh.jpg
+[DEBUG] get_video xVO653FIX4XG4L 响应: 200
+视频 xVO653FIX4XG4L 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/xVO653FIX4XG4L.jpg，跳过下载。
+缩略图 xVO653FIX4XG4L 下载成功: /srv/video_downloader/data/downloads/thumbnails/xVO653FIX4XG4L.jpg
+[DEBUG] get_video Yrd0FHadVvhyhu 响应: 200
+视频 Yrd0FHadVvhyhu 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/Yrd0FHadVvhyhu.jpg，跳过下载。
+缩略图 Yrd0FHadVvhyhu 下载成功: /srv/video_downloader/data/downloads/thumbnails/Yrd0FHadVvhyhu.jpg
+[DEBUG] get_video jTX5bZcSIkIJaP 响应: 200
+下载视频 jTX5bZcSIkIJaP 最终失败: 解析视频 jTX5bZcSIkIJaP 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video OZ1JxcIkD13Osh 响应: 200
+视频 OZ1JxcIkD13Osh 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/OZ1JxcIkD13Osh.jpg，跳过下载。
+缩略图 OZ1JxcIkD13Osh 下载成功: /srv/video_downloader/data/downloads/thumbnails/OZ1JxcIkD13Osh.jpg
+[DEBUG] get_video Aa4bklzmRRgWHh 响应: 200
+下载视频 Aa4bklzmRRgWHh 最终失败: 解析视频 Aa4bklzmRRgWHh 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video sC7cX6XcwjVdlg 响应: 200
+视频 sC7cX6XcwjVdlg 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/sC7cX6XcwjVdlg.jpg，跳过下载。
+缩略图 sC7cX6XcwjVdlg 下载成功: /srv/video_downloader/data/downloads/thumbnails/sC7cX6XcwjVdlg.jpg
+[DEBUG] get_video xVO653FIX4XG4L 响应: 200
+下载视频 xVO653FIX4XG4L 最终失败: 解析视频 xVO653FIX4XG4L 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video ZkU537XB56eqnm 响应: 200
+视频 ZkU537XB56eqnm 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/ZkU537XB56eqnm.jpg，跳过下载。
+缩略图 ZkU537XB56eqnm 下载成功: /srv/video_downloader/data/downloads/thumbnails/ZkU537XB56eqnm.jpg
+[DEBUG] get_video Yrd0FHadVvhyhu 响应: 200
+下载视频 Yrd0FHadVvhyhu 最终失败: 解析视频 Yrd0FHadVvhyhu 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video Ps5l9dF1Jd5WLP 响应: 200
+视频 Ps5l9dF1Jd5WLP 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/Ps5l9dF1Jd5WLP.jpg，跳过下载。
+缩略图 Ps5l9dF1Jd5WLP 下载成功: /srv/video_downloader/data/downloads/thumbnails/Ps5l9dF1Jd5WLP.jpg
+[DEBUG] get_video OZ1JxcIkD13Osh 响应: 200
+下载视频 OZ1JxcIkD13Osh 最终失败: 解析视频 OZ1JxcIkD13Osh 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video FFJGKXAlVk0mq7 响应: 200
+视频 FFJGKXAlVk0mq7 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/FFJGKXAlVk0mq7.jpg，跳过下载。
+缩略图 FFJGKXAlVk0mq7 下载成功: /srv/video_downloader/data/downloads/thumbnails/FFJGKXAlVk0mq7.jpg
+[DEBUG] get_video sC7cX6XcwjVdlg 响应: 200
+下载视频 sC7cX6XcwjVdlg 最终失败: 解析视频 sC7cX6XcwjVdlg 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 9mOaB2RVwGrA9N 响应: 200
+视频 9mOaB2RVwGrA9N 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/9mOaB2RVwGrA9N.jpg，跳过下载。
+缩略图 9mOaB2RVwGrA9N 下载成功: /srv/video_downloader/data/downloads/thumbnails/9mOaB2RVwGrA9N.jpg
+[DEBUG] get_video ZkU537XB56eqnm 响应: 200
+下载视频 ZkU537XB56eqnm 最终失败: 解析视频 ZkU537XB56eqnm 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video H691hWCuIhSTy7 响应: 200
+视频 H691hWCuIhSTy7 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/H691hWCuIhSTy7.jpg，跳过下载。
+缩略图 H691hWCuIhSTy7 下载成功: /srv/video_downloader/data/downloads/thumbnails/H691hWCuIhSTy7.jpg
+[DEBUG] get_video Ps5l9dF1Jd5WLP 响应: 200
+下载视频 Ps5l9dF1Jd5WLP 最终失败: 解析视频 Ps5l9dF1Jd5WLP 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video nfDk6u05SfMmPg 响应: 200
+视频 nfDk6u05SfMmPg 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/nfDk6u05SfMmPg.jpg，跳过下载。
+缩略图 nfDk6u05SfMmPg 下载成功: /srv/video_downloader/data/downloads/thumbnails/nfDk6u05SfMmPg.jpg
+[DEBUG] get_video FFJGKXAlVk0mq7 响应: 200
+下载视频 FFJGKXAlVk0mq7 最终失败: 解析视频 FFJGKXAlVk0mq7 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video QseCnAtHuhWXqj 响应: 200
+视频 QseCnAtHuhWXqj 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/QseCnAtHuhWXqj.jpg，跳过下载。
+缩略图 QseCnAtHuhWXqj 下载成功: /srv/video_downloader/data/downloads/thumbnails/QseCnAtHuhWXqj.jpg
+[DEBUG] get_video 9mOaB2RVwGrA9N 响应: 200
+下载视频 9mOaB2RVwGrA9N 最终失败: 解析视频 9mOaB2RVwGrA9N 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video DsOeFbmjsACvFe 响应: 200
+视频 DsOeFbmjsACvFe 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/DsOeFbmjsACvFe.jpg，跳过下载。
+缩略图 DsOeFbmjsACvFe 下载成功: /srv/video_downloader/data/downloads/thumbnails/DsOeFbmjsACvFe.jpg
+[DEBUG] get_video H691hWCuIhSTy7 响应: 200
+下载视频 H691hWCuIhSTy7 最终失败: 解析视频 H691hWCuIhSTy7 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video QEgBpuYUs90cU8 响应: 200
+视频 QEgBpuYUs90cU8 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/QEgBpuYUs90cU8.jpg，跳过下载。
+缩略图 QEgBpuYUs90cU8 下载成功: /srv/video_downloader/data/downloads/thumbnails/QEgBpuYUs90cU8.jpg
+[DEBUG] get_video nfDk6u05SfMmPg 响应: 200
+下载视频 nfDk6u05SfMmPg 最终失败: 解析视频 nfDk6u05SfMmPg 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video mk4pOVcavQtoIG 响应: 200
+视频 mk4pOVcavQtoIG 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/mk4pOVcavQtoIG.jpg，跳过下载。
+缩略图 mk4pOVcavQtoIG 下载成功: /srv/video_downloader/data/downloads/thumbnails/mk4pOVcavQtoIG.jpg
+[DEBUG] get_video QseCnAtHuhWXqj 响应: 200
+下载视频 QseCnAtHuhWXqj 最终失败: 解析视频 QseCnAtHuhWXqj 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video DsOeFbmjsACvFe 响应: 200
+下载视频 DsOeFbmjsACvFe 最终失败: 解析视频 DsOeFbmjsACvFe 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video dMFbIPWN7iWmaz 响应: 200
+视频 dMFbIPWN7iWmaz 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/dMFbIPWN7iWmaz.jpg，跳过下载。
+缩略图 dMFbIPWN7iWmaz 下载成功: /srv/video_downloader/data/downloads/thumbnails/dMFbIPWN7iWmaz.jpg
+[DEBUG] get_video QEgBpuYUs90cU8 响应: 200
+下载视频 QEgBpuYUs90cU8 最终失败: 解析视频 QEgBpuYUs90cU8 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video aYTRr5rJr8JC9Q 响应: 200
+视频 aYTRr5rJr8JC9Q 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/aYTRr5rJr8JC9Q.jpg，跳过下载。
+缩略图 aYTRr5rJr8JC9Q 下载成功: /srv/video_downloader/data/downloads/thumbnails/aYTRr5rJr8JC9Q.jpg
+[DEBUG] get_video mk4pOVcavQtoIG 响应: 200
+下载视频 mk4pOVcavQtoIG 最终失败: 解析视频 mk4pOVcavQtoIG 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video hipizByP40fhJz 响应: 200
+视频 hipizByP40fhJz 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/hipizByP40fhJz.jpg，跳过下载。
+缩略图 hipizByP40fhJz 下载成功: /srv/video_downloader/data/downloads/thumbnails/hipizByP40fhJz.jpg
+[DEBUG] get_video LiiPiZNUEhhh9o 响应: 200
+视频 LiiPiZNUEhhh9o 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/LiiPiZNUEhhh9o.jpg，跳过下载。
+缩略图 LiiPiZNUEhhh9o 下载成功: /srv/video_downloader/data/downloads/thumbnails/LiiPiZNUEhhh9o.jpg
+[DEBUG] get_video fdiI6Hdilp4IX5 响应: 200
+视频 fdiI6Hdilp4IX5 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/fdiI6Hdilp4IX5.jpg，跳过下载。
+缩略图 fdiI6Hdilp4IX5 下载成功: /srv/video_downloader/data/downloads/thumbnails/fdiI6Hdilp4IX5.jpg
+[DEBUG] get_video dMFbIPWN7iWmaz 响应: 200
+下载视频 dMFbIPWN7iWmaz 最终失败: 解析视频 dMFbIPWN7iWmaz 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+等待所有初始下载线程完成...
+[DEBUG] get_video aYTRr5rJr8JC9Q 响应: 200
+下载视频 aYTRr5rJr8JC9Q 最终失败: 解析视频 aYTRr5rJr8JC9Q 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video N9yugct44NkI27 响应: 200
+视频 N9yugct44NkI27 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/N9yugct44NkI27.jpg，跳过下载。
+缩略图 N9yugct44NkI27 下载成功: /srv/video_downloader/data/downloads/thumbnails/N9yugct44NkI27.jpg
+[DEBUG] get_video L2Ts2RZAtjfTCR 响应: 200
+[DEBUG] get_video hipizByP40fhJz 响应: 200
+下载视频 hipizByP40fhJz 最终失败: 解析视频 hipizByP40fhJz 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频 L2Ts2RZAtjfTCR 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/L2Ts2RZAtjfTCR.jpg，跳过下载。
+缩略图 L2Ts2RZAtjfTCR 下载成功: /srv/video_downloader/data/downloads/thumbnails/L2Ts2RZAtjfTCR.jpg
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video LiiPiZNUEhhh9o 响应: 200
+下载视频 LiiPiZNUEhhh9o 最终失败: 解析视频 LiiPiZNUEhhh9o 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video ylVQ3c8Bnq249b 响应: 200
+视频 ylVQ3c8Bnq249b 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/ylVQ3c8Bnq249b.jpg，跳过下载。
+缩略图 ylVQ3c8Bnq249b 下载成功: /srv/video_downloader/data/downloads/thumbnails/ylVQ3c8Bnq249b.jpg
+[DEBUG] get_video fdiI6Hdilp4IX5 响应: 200
+下载视频 fdiI6Hdilp4IX5 最终失败: 解析视频 fdiI6Hdilp4IX5 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video N9yugct44NkI27 响应: 200
+下载视频 N9yugct44NkI27 最终失败: 解析视频 N9yugct44NkI27 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 N9yugct44NkI27 的下载状态: 失败
+[DEBUG] get_video L2Ts2RZAtjfTCR 响应: 200
+下载视频 L2Ts2RZAtjfTCR 最终失败: 解析视频 L2Ts2RZAtjfTCR 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video ylVQ3c8Bnq249b 响应: 200
+下载视频 ylVQ3c8Bnq249b 最终失败: 解析视频 ylVQ3c8Bnq249b 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+所有初始下载线程已结束。
+批量下载任务处理完毕。
+[警告] 尝试在未登录状态下获取视频列表
+[DEBUG] get_videos 响应: 200
+开始处理 32 个视频的下载任务...
+[DEBUG] get_video FFJGKXAlVk0mq7 响应: 200
+视频 FFJGKXAlVk0mq7 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/FFJGKXAlVk0mq7.jpg，跳过下载。
+缩略图 FFJGKXAlVk0mq7 下载成功: /srv/video_downloader/data/downloads/thumbnails/FFJGKXAlVk0mq7.jpg
+[DEBUG] get_video 9mOaB2RVwGrA9N 响应: 200
+视频 9mOaB2RVwGrA9N 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/9mOaB2RVwGrA9N.jpg，跳过下载。
+缩略图 9mOaB2RVwGrA9N 下载成功: /srv/video_downloader/data/downloads/thumbnails/9mOaB2RVwGrA9N.jpg
+[DEBUG] get_video H691hWCuIhSTy7 响应: 200
+视频 H691hWCuIhSTy7 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/H691hWCuIhSTy7.jpg，跳过下载。
+缩略图 H691hWCuIhSTy7 下载成功: /srv/video_downloader/data/downloads/thumbnails/H691hWCuIhSTy7.jpg
+[DEBUG] get_video FFJGKXAlVk0mq7 响应: 200
+下载视频 FFJGKXAlVk0mq7 最终失败: 解析视频 FFJGKXAlVk0mq7 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video nfDk6u05SfMmPg 响应: 200
+视频 nfDk6u05SfMmPg 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/nfDk6u05SfMmPg.jpg，跳过下载。
+缩略图 nfDk6u05SfMmPg 下载成功: /srv/video_downloader/data/downloads/thumbnails/nfDk6u05SfMmPg.jpg
+[DEBUG] get_video QseCnAtHuhWXqj 响应: 200
+视频 QseCnAtHuhWXqj 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/QseCnAtHuhWXqj.jpg，跳过下载。
+缩略图 QseCnAtHuhWXqj 下载成功: /srv/video_downloader/data/downloads/thumbnails/QseCnAtHuhWXqj.jpg
+[DEBUG] get_video 9mOaB2RVwGrA9N 响应: 200
+下载视频 9mOaB2RVwGrA9N 最终失败: 解析视频 9mOaB2RVwGrA9N 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video DsOeFbmjsACvFe 响应: 200
+视频 DsOeFbmjsACvFe 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/DsOeFbmjsACvFe.jpg，跳过下载。
+缩略图 DsOeFbmjsACvFe 下载成功: /srv/video_downloader/data/downloads/thumbnails/DsOeFbmjsACvFe.jpg
+[DEBUG] get_video H691hWCuIhSTy7 响应: 200
+下载视频 H691hWCuIhSTy7 最终失败: 解析视频 H691hWCuIhSTy7 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video QEgBpuYUs90cU8 响应: 200
+视频 QEgBpuYUs90cU8 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/QEgBpuYUs90cU8.jpg，跳过下载。
+缩略图 QEgBpuYUs90cU8 下载成功: /srv/video_downloader/data/downloads/thumbnails/QEgBpuYUs90cU8.jpg
+[DEBUG] get_video nfDk6u05SfMmPg 响应: 200
+下载视频 nfDk6u05SfMmPg 最终失败: 解析视频 nfDk6u05SfMmPg 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video mk4pOVcavQtoIG 响应: 200
+视频 mk4pOVcavQtoIG 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/mk4pOVcavQtoIG.jpg，跳过下载。
+缩略图 mk4pOVcavQtoIG 下载成功: /srv/video_downloader/data/downloads/thumbnails/mk4pOVcavQtoIG.jpg
+[DEBUG] get_video QseCnAtHuhWXqj 响应: 200
+下载视频 QseCnAtHuhWXqj 最终失败: 解析视频 QseCnAtHuhWXqj 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video hipizByP40fhJz 响应: 200
+视频 hipizByP40fhJz 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/hipizByP40fhJz.jpg，跳过下载。
+缩略图 hipizByP40fhJz 下载成功: /srv/video_downloader/data/downloads/thumbnails/hipizByP40fhJz.jpg
+[DEBUG] get_video DsOeFbmjsACvFe 响应: 200
+下载视频 DsOeFbmjsACvFe 最终失败: 解析视频 DsOeFbmjsACvFe 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video dMFbIPWN7iWmaz 响应: 200
+视频 dMFbIPWN7iWmaz 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/dMFbIPWN7iWmaz.jpg，跳过下载。
+缩略图 dMFbIPWN7iWmaz 下载成功: /srv/video_downloader/data/downloads/thumbnails/dMFbIPWN7iWmaz.jpg
+[DEBUG] get_video QEgBpuYUs90cU8 响应: 200
+下载视频 QEgBpuYUs90cU8 最终失败: 解析视频 QEgBpuYUs90cU8 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video aYTRr5rJr8JC9Q 响应: 200
+视频 aYTRr5rJr8JC9Q 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/aYTRr5rJr8JC9Q.jpg，跳过下载。
+缩略图 aYTRr5rJr8JC9Q 下载成功: /srv/video_downloader/data/downloads/thumbnails/aYTRr5rJr8JC9Q.jpg
+[DEBUG] get_video mk4pOVcavQtoIG 响应: 200
+下载视频 mk4pOVcavQtoIG 最终失败: 解析视频 mk4pOVcavQtoIG 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video LiiPiZNUEhhh9o 响应: 200
+视频 LiiPiZNUEhhh9o 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/LiiPiZNUEhhh9o.jpg，跳过下载。
+缩略图 LiiPiZNUEhhh9o 下载成功: /srv/video_downloader/data/downloads/thumbnails/LiiPiZNUEhhh9o.jpg
+[DEBUG] get_video hipizByP40fhJz 响应: 200
+下载视频 hipizByP40fhJz 最终失败: 解析视频 hipizByP40fhJz 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video fdiI6Hdilp4IX5 响应: 200
+视频 fdiI6Hdilp4IX5 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/fdiI6Hdilp4IX5.jpg，跳过下载。
+缩略图 fdiI6Hdilp4IX5 下载成功: /srv/video_downloader/data/downloads/thumbnails/fdiI6Hdilp4IX5.jpg
+[DEBUG] get_video dMFbIPWN7iWmaz 响应: 200
+下载视频 dMFbIPWN7iWmaz 最终失败: 解析视频 dMFbIPWN7iWmaz 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video N9yugct44NkI27 响应: 200
+视频 N9yugct44NkI27 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/N9yugct44NkI27.jpg，跳过下载。
+缩略图 N9yugct44NkI27 下载成功: /srv/video_downloader/data/downloads/thumbnails/N9yugct44NkI27.jpg
+[DEBUG] get_video aYTRr5rJr8JC9Q 响应: 200
+下载视频 aYTRr5rJr8JC9Q 最终失败: 解析视频 aYTRr5rJr8JC9Q 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video L2Ts2RZAtjfTCR 响应: 200
+视频 L2Ts2RZAtjfTCR 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/L2Ts2RZAtjfTCR.jpg，跳过下载。
+缩略图 L2Ts2RZAtjfTCR 下载成功: /srv/video_downloader/data/downloads/thumbnails/L2Ts2RZAtjfTCR.jpg
+[DEBUG] get_video LiiPiZNUEhhh9o 响应: 200
+下载视频 LiiPiZNUEhhh9o 最终失败: 解析视频 LiiPiZNUEhhh9o 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video ylVQ3c8Bnq249b 响应: 200
+视频 ylVQ3c8Bnq249b 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/ylVQ3c8Bnq249b.jpg，跳过下载。
+缩略图 ylVQ3c8Bnq249b 下载成功: /srv/video_downloader/data/downloads/thumbnails/ylVQ3c8Bnq249b.jpg
+[DEBUG] get_video fdiI6Hdilp4IX5 响应: 200
+下载视频 fdiI6Hdilp4IX5 最终失败: 解析视频 fdiI6Hdilp4IX5 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+等待所有初始下载线程完成...
+[DEBUG] get_video k0IvMBjXBSeXmT 响应: 200
+[DEBUG] get_video N9yugct44NkI27 响应: 200
+下载视频 N9yugct44NkI27 最终失败: 解析视频 N9yugct44NkI27 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video sA3syBAK4bGcsg 响应: 200
+开始下载视频 k0IvMBjXBSeXmT 的缩略图...
+[DEBUG] get_video aPr887K3MvTPdm 响应: 200
+[DEBUG] get_video StueQVi1FbkLJX 响应: 200
+[DEBUG] get_video EMni6azvUaZEl9 响应: 200
+[DEBUG] get_video L2Ts2RZAtjfTCR 响应: 200
+[DEBUG] get_video jxYoGoArkoYkR2 响应: 200
+[DEBUG] get_video x8xXwH4v6bOwqI 响应: 200
+下载视频 L2Ts2RZAtjfTCR 最终失败: 解析视频 L2Ts2RZAtjfTCR 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video cqLKsXIOy7ImD5 响应: 200
+[DEBUG] get_video HmVEnkH3PY3JkZ 响应: 200
+开始下载视频 EMni6azvUaZEl9 的缩略图...
+[DEBUG] get_video kSUHRobcFKZYVr 响应: 200
+视频 cqLKsXIOy7ImD5 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/cqLKsXIOy7ImD5.jpg，跳过下载。
+缩略图 cqLKsXIOy7ImD5 下载成功: /srv/video_downloader/data/downloads/thumbnails/cqLKsXIOy7ImD5.jpg
+视频 x8xXwH4v6bOwqI 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/x8xXwH4v6bOwqI.jpg，跳过下载。
+缩略图 x8xXwH4v6bOwqI 下载成功: /srv/video_downloader/data/downloads/thumbnails/x8xXwH4v6bOwqI.jpg
+[DEBUG] get_video 62Bco4fnZVMQuc 响应: 200
+视频 62Bco4fnZVMQuc 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/62Bco4fnZVMQuc.jpg，跳过下载。
+缩略图 62Bco4fnZVMQuc 下载成功: /srv/video_downloader/data/downloads/thumbnails/62Bco4fnZVMQuc.jpg
+[DEBUG] get_video ylVQ3c8Bnq249b 响应: 200
+视频 jxYoGoArkoYkR2 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/jxYoGoArkoYkR2.jpg，跳过下载。
+缩略图 jxYoGoArkoYkR2 下载成功: /srv/video_downloader/data/downloads/thumbnails/jxYoGoArkoYkR2.jpg
+[DEBUG] get_video CEaJ2Pl8KCWd8l 响应: 200
+[DEBUG] get_video pwrhhsokXEt0pp 响应: 200
+[日志] 更新视频 N9yugct44NkI27 的下载状态: 失败
+视频 pwrhhsokXEt0pp 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/pwrhhsokXEt0pp.jpg，跳过下载。
+缩略图 pwrhhsokXEt0pp 下载成功: /srv/video_downloader/data/downloads/thumbnails/pwrhhsokXEt0pp.jpg
+下载视频 ylVQ3c8Bnq249b 最终失败: 解析视频 ylVQ3c8Bnq249b 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video KKPt6KFoztJWwJ 响应: 200
+视频 kSUHRobcFKZYVr 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/kSUHRobcFKZYVr.jpg，跳过下载。
+缩略图 kSUHRobcFKZYVr 下载成功: /srv/video_downloader/data/downloads/thumbnails/kSUHRobcFKZYVr.jpg
+视频 StueQVi1FbkLJX 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/StueQVi1FbkLJX.jpg，跳过下载。
+缩略图 StueQVi1FbkLJX 下载成功: /srv/video_downloader/data/downloads/thumbnails/StueQVi1FbkLJX.jpg
+视频 sA3syBAK4bGcsg 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/sA3syBAK4bGcsg.jpg，跳过下载。
+缩略图 sA3syBAK4bGcsg 下载成功: /srv/video_downloader/data/downloads/thumbnails/sA3syBAK4bGcsg.jpg
+视频 CEaJ2Pl8KCWd8l 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/CEaJ2Pl8KCWd8l.jpg，跳过下载。
+缩略图 CEaJ2Pl8KCWd8l 下载成功: /srv/video_downloader/data/downloads/thumbnails/CEaJ2Pl8KCWd8l.jpg
+视频 KKPt6KFoztJWwJ 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/KKPt6KFoztJWwJ.jpg，跳过下载。
+缩略图 KKPt6KFoztJWwJ 下载成功: /srv/video_downloader/data/downloads/thumbnails/KKPt6KFoztJWwJ.jpg
+[DEBUG] get_video O1HBXxsPVZNed2 响应: 200
+视频 O1HBXxsPVZNed2 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/O1HBXxsPVZNed2.jpg，跳过下载。
+缩略图 O1HBXxsPVZNed2 下载成功: /srv/video_downloader/data/downloads/thumbnails/O1HBXxsPVZNed2.jpg
+[DEBUG] get_video vrXzMWxIdp5M9u 响应: 200
+视频 vrXzMWxIdp5M9u 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/vrXzMWxIdp5M9u.jpg，跳过下载。
+缩略图 vrXzMWxIdp5M9u 下载成功: /srv/video_downloader/data/downloads/thumbnails/vrXzMWxIdp5M9u.jpg
+视频 HmVEnkH3PY3JkZ 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/HmVEnkH3PY3JkZ.jpg，跳过下载。
+缩略图 HmVEnkH3PY3JkZ 下载成功: /srv/video_downloader/data/downloads/thumbnails/HmVEnkH3PY3JkZ.jpg
+视频 aPr887K3MvTPdm 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/aPr887K3MvTPdm.jpg，跳过下载。
+缩略图 aPr887K3MvTPdm 下载成功: /srv/video_downloader/data/downloads/thumbnails/aPr887K3MvTPdm.jpg
+视频已经下载完成，修改json文件失败
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 62Bco4fnZVMQuc 响应: 200
+下载视频 62Bco4fnZVMQuc 最终失败: 解析视频 62Bco4fnZVMQuc 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video pwrhhsokXEt0pp 响应: 200
+下载视频 pwrhhsokXEt0pp 最终失败: 解析视频 pwrhhsokXEt0pp 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video kSUHRobcFKZYVr 响应: 200
+视频已经下载完成，修改json文件失败
+下载视频 kSUHRobcFKZYVr 最终失败: 解析视频 kSUHRobcFKZYVr 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video x8xXwH4v6bOwqI 响应: 200
+[DEBUG] get_video jxYoGoArkoYkR2 响应: 200
+下载视频 x8xXwH4v6bOwqI 最终失败: 解析视频 x8xXwH4v6bOwqI 下载资源响应失败: can only concatenate str (not "NoneType") to str
+下载视频 jxYoGoArkoYkR2 最终失败: 解析视频 jxYoGoArkoYkR2 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video StueQVi1FbkLJX 响应: 200
+视频已经下载完成，修改json文件失败
+下载视频 StueQVi1FbkLJX 最终失败: 解析视频 StueQVi1FbkLJX 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video O1HBXxsPVZNed2 响应: 200
+下载视频 O1HBXxsPVZNed2 最终失败: 解析视频 O1HBXxsPVZNed2 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video CEaJ2Pl8KCWd8l 响应: 200
+下载视频 CEaJ2Pl8KCWd8l 最终失败: 解析视频 CEaJ2Pl8KCWd8l 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video HmVEnkH3PY3JkZ 响应: 200
+下载视频 HmVEnkH3PY3JkZ 最终失败: 解析视频 HmVEnkH3PY3JkZ 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video sA3syBAK4bGcsg 响应: 200
+下载视频 sA3syBAK4bGcsg 最终失败: 解析视频 sA3syBAK4bGcsg 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video KKPt6KFoztJWwJ 响应: 200
+下载视频 KKPt6KFoztJWwJ 最终失败: 解析视频 KKPt6KFoztJWwJ 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video cqLKsXIOy7ImD5 响应: 200
+下载视频 cqLKsXIOy7ImD5 最终失败: 解析视频 cqLKsXIOy7ImD5 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video aPr887K3MvTPdm 响应: 200
+[DEBUG] get_video vrXzMWxIdp5M9u 响应: 200
+下载视频 aPr887K3MvTPdm 最终失败: 解析视频 aPr887K3MvTPdm 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+下载视频 vrXzMWxIdp5M9u 最终失败: 解析视频 vrXzMWxIdp5M9u 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 CEaJ2Pl8KCWd8l 的下载状态: 失败
+视频已经下载完成，修改json文件失败
+视频已经下载完成，修改json文件失败
+视频已经下载完成，修改json文件失败
+视频已经下载完成，修改json文件失败
+视频已经下载完成，修改json文件失败
+视频已经下载完成，修改json文件失败
+视频 EMni6azvUaZEl9 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/EMni6azvUaZEl9.jpg
+缩略图 EMni6azvUaZEl9 下载成功: /srv/video_downloader/data/downloads/thumbnails/EMni6azvUaZEl9.jpg
+视频 k0IvMBjXBSeXmT 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/k0IvMBjXBSeXmT.jpg
+缩略图 k0IvMBjXBSeXmT 下载成功: /srv/video_downloader/data/downloads/thumbnails/k0IvMBjXBSeXmT.jpg
+[DEBUG] get_video EMni6azvUaZEl9 响应: 200
+下载视频 EMni6azvUaZEl9 最终失败: 解析视频 EMni6azvUaZEl9 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 EMni6azvUaZEl9 的下载状态: 失败
+[DEBUG] get_video k0IvMBjXBSeXmT 响应: 200
+下载视频 k0IvMBjXBSeXmT 最终失败: 解析视频 k0IvMBjXBSeXmT 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 k0IvMBjXBSeXmT 的下载状态: 失败
+所有初始下载线程已结束。
+批量下载任务处理完毕。
+[警告] 尝试在未登录状态下获取视频列表
+[DEBUG] get_videos 响应: 200
+开始处理 8 个视频的下载任务...
+[DEBUG] get_video NjD6YKc4I8HAld 响应: 200
+视频 NjD6YKc4I8HAld 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/NjD6YKc4I8HAld.jpg，跳过下载。
+缩略图 NjD6YKc4I8HAld 下载成功: /srv/video_downloader/data/downloads/thumbnails/NjD6YKc4I8HAld.jpg
+[DEBUG] get_video 4gkdpKlzsDBF8y 响应: 200
+视频 4gkdpKlzsDBF8y 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/4gkdpKlzsDBF8y.jpg，跳过下载。
+缩略图 4gkdpKlzsDBF8y 下载成功: /srv/video_downloader/data/downloads/thumbnails/4gkdpKlzsDBF8y.jpg
+[DEBUG] get_video u89aHJVbcfJ9IR 响应: 200
+视频 u89aHJVbcfJ9IR 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/u89aHJVbcfJ9IR.jpg，跳过下载。
+缩略图 u89aHJVbcfJ9IR 下载成功: /srv/video_downloader/data/downloads/thumbnails/u89aHJVbcfJ9IR.jpg
+[DEBUG] get_video Hby8SNRbTrlFce 响应: 200
+视频 Hby8SNRbTrlFce 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/Hby8SNRbTrlFce.jpg，跳过下载。
+缩略图 Hby8SNRbTrlFce 下载成功: /srv/video_downloader/data/downloads/thumbnails/Hby8SNRbTrlFce.jpg
+[DEBUG] get_video NjD6YKc4I8HAld 响应: 200
+下载视频 NjD6YKc4I8HAld 最终失败: 解析视频 NjD6YKc4I8HAld 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video IcYcazCjKB0o5F 响应: 200
+等待所有初始下载线程完成...
+视频 IcYcazCjKB0o5F 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/IcYcazCjKB0o5F.jpg，跳过下载。
+缩略图 IcYcazCjKB0o5F 下载成功: /srv/video_downloader/data/downloads/thumbnails/IcYcazCjKB0o5F.jpg
+[DEBUG] get_video 4gkdpKlzsDBF8y 响应: 200
+下载视频 4gkdpKlzsDBF8y 最终失败: 解析视频 4gkdpKlzsDBF8y 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 9OboHilmvOSuec 响应: 200
+视频 9OboHilmvOSuec 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/9OboHilmvOSuec.jpg，跳过下载。
+缩略图 9OboHilmvOSuec 下载成功: /srv/video_downloader/data/downloads/thumbnails/9OboHilmvOSuec.jpg
+[DEBUG] get_video u89aHJVbcfJ9IR 响应: 200
+下载视频 u89aHJVbcfJ9IR 最终失败: 解析视频 u89aHJVbcfJ9IR 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 0Z0yMhEfYHpRkB 响应: 200
+视频 0Z0yMhEfYHpRkB 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/0Z0yMhEfYHpRkB.jpg，跳过下载。
+缩略图 0Z0yMhEfYHpRkB 下载成功: /srv/video_downloader/data/downloads/thumbnails/0Z0yMhEfYHpRkB.jpg
+[DEBUG] get_video 60vl1ooumEw6cv 响应: 200
+视频 60vl1ooumEw6cv 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/60vl1ooumEw6cv.jpg，跳过下载。
+缩略图 60vl1ooumEw6cv 下载成功: /srv/video_downloader/data/downloads/thumbnails/60vl1ooumEw6cv.jpg
+[DEBUG] get_video Hby8SNRbTrlFce 响应: 200
+下载视频 Hby8SNRbTrlFce 最终失败: 解析视频 Hby8SNRbTrlFce 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 Hby8SNRbTrlFce 的下载状态: 失败
+[DEBUG] get_video IcYcazCjKB0o5F 响应: 200
+下载视频 IcYcazCjKB0o5F 最终失败: 解析视频 IcYcazCjKB0o5F 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 9OboHilmvOSuec 响应: 200
+下载视频 9OboHilmvOSuec 最终失败: 解析视频 9OboHilmvOSuec 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 0Z0yMhEfYHpRkB 响应: 200
+下载视频 0Z0yMhEfYHpRkB 最终失败: 解析视频 0Z0yMhEfYHpRkB 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 60vl1ooumEw6cv 响应: 200
+下载视频 60vl1ooumEw6cv 最终失败: 解析视频 60vl1ooumEw6cv 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+所有初始下载线程已结束。
+批量下载任务处理完毕。
+[警告] 尝试在未登录状态下获取视频列表
+[DEBUG] get_videos 响应: 200
+开始处理 16 个视频的下载任务...
+[DEBUG] get_video FFJGKXAlVk0mq7 响应: 200
+视频 FFJGKXAlVk0mq7 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/FFJGKXAlVk0mq7.jpg，跳过下载。
+缩略图 FFJGKXAlVk0mq7 下载成功: /srv/video_downloader/data/downloads/thumbnails/FFJGKXAlVk0mq7.jpg
+[DEBUG] get_video 9mOaB2RVwGrA9N 响应: 200
+视频 9mOaB2RVwGrA9N 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/9mOaB2RVwGrA9N.jpg，跳过下载。
+缩略图 9mOaB2RVwGrA9N 下载成功: /srv/video_downloader/data/downloads/thumbnails/9mOaB2RVwGrA9N.jpg
+[DEBUG] get_video H691hWCuIhSTy7 响应: 200
+视频 H691hWCuIhSTy7 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/H691hWCuIhSTy7.jpg，跳过下载。
+缩略图 H691hWCuIhSTy7 下载成功: /srv/video_downloader/data/downloads/thumbnails/H691hWCuIhSTy7.jpg
+[DEBUG] get_video nfDk6u05SfMmPg 响应: 200
+视频 nfDk6u05SfMmPg 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/nfDk6u05SfMmPg.jpg，跳过下载。
+缩略图 nfDk6u05SfMmPg 下载成功: /srv/video_downloader/data/downloads/thumbnails/nfDk6u05SfMmPg.jpg
+[DEBUG] get_video QseCnAtHuhWXqj 响应: 200
+视频 QseCnAtHuhWXqj 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/QseCnAtHuhWXqj.jpg，跳过下载。
+缩略图 QseCnAtHuhWXqj 下载成功: /srv/video_downloader/data/downloads/thumbnails/QseCnAtHuhWXqj.jpg
+[DEBUG] get_video DsOeFbmjsACvFe 响应: 200
+视频 DsOeFbmjsACvFe 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/DsOeFbmjsACvFe.jpg，跳过下载。
+缩略图 DsOeFbmjsACvFe 下载成功: /srv/video_downloader/data/downloads/thumbnails/DsOeFbmjsACvFe.jpg
+[DEBUG] get_video QEgBpuYUs90cU8 响应: 200
+视频 QEgBpuYUs90cU8 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/QEgBpuYUs90cU8.jpg，跳过下载。
+缩略图 QEgBpuYUs90cU8 下载成功: /srv/video_downloader/data/downloads/thumbnails/QEgBpuYUs90cU8.jpg
+[DEBUG] get_video mk4pOVcavQtoIG 响应: 200
+视频 mk4pOVcavQtoIG 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/mk4pOVcavQtoIG.jpg，跳过下载。
+缩略图 mk4pOVcavQtoIG 下载成功: /srv/video_downloader/data/downloads/thumbnails/mk4pOVcavQtoIG.jpg
+[DEBUG] get_video FFJGKXAlVk0mq7 响应: 200
+下载视频 FFJGKXAlVk0mq7 最终失败: 解析视频 FFJGKXAlVk0mq7 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video dMFbIPWN7iWmaz 响应: 200
+视频 dMFbIPWN7iWmaz 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/dMFbIPWN7iWmaz.jpg，跳过下载。
+缩略图 dMFbIPWN7iWmaz 下载成功: /srv/video_downloader/data/downloads/thumbnails/dMFbIPWN7iWmaz.jpg
+[DEBUG] get_video 9mOaB2RVwGrA9N 响应: 200
+下载视频 9mOaB2RVwGrA9N 最终失败: 解析视频 9mOaB2RVwGrA9N 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video H691hWCuIhSTy7 响应: 200
+下载视频 H691hWCuIhSTy7 最终失败: 解析视频 H691hWCuIhSTy7 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video nfDk6u05SfMmPg 响应: 200
+下载视频 nfDk6u05SfMmPg 最终失败: 解析视频 nfDk6u05SfMmPg 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video aYTRr5rJr8JC9Q 响应: 200
+[DEBUG] get_video QseCnAtHuhWXqj 响应: 200
+视频已经下载完成，修改json文件失败
+下载视频 QseCnAtHuhWXqj 最终失败: 解析视频 QseCnAtHuhWXqj 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频 aYTRr5rJr8JC9Q 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/aYTRr5rJr8JC9Q.jpg，跳过下载。
+缩略图 aYTRr5rJr8JC9Q 下载成功: /srv/video_downloader/data/downloads/thumbnails/aYTRr5rJr8JC9Q.jpg
+[DEBUG] get_video LiiPiZNUEhhh9o 响应: 200
+视频已经下载完成，修改json文件失败
+视频 LiiPiZNUEhhh9o 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/LiiPiZNUEhhh9o.jpg，跳过下载。
+缩略图 LiiPiZNUEhhh9o 下载成功: /srv/video_downloader/data/downloads/thumbnails/LiiPiZNUEhhh9o.jpg
+[DEBUG] get_video QEgBpuYUs90cU8 响应: 200
+下载视频 QEgBpuYUs90cU8 最终失败: 解析视频 QEgBpuYUs90cU8 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video DsOeFbmjsACvFe 响应: 200
+下载视频 DsOeFbmjsACvFe 最终失败: 解析视频 DsOeFbmjsACvFe 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video fdiI6Hdilp4IX5 响应: 200
+视频 fdiI6Hdilp4IX5 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/fdiI6Hdilp4IX5.jpg，跳过下载。
+缩略图 fdiI6Hdilp4IX5 下载成功: /srv/video_downloader/data/downloads/thumbnails/fdiI6Hdilp4IX5.jpg
+[DEBUG] get_video mk4pOVcavQtoIG 响应: 200
+下载视频 mk4pOVcavQtoIG 最终失败: 解析视频 mk4pOVcavQtoIG 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+等待所有初始下载线程完成...
+[DEBUG] get_video N9yugct44NkI27 响应: 200
+视频 N9yugct44NkI27 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/N9yugct44NkI27.jpg，跳过下载。
+缩略图 N9yugct44NkI27 下载成功: /srv/video_downloader/data/downloads/thumbnails/N9yugct44NkI27.jpg
+[DEBUG] get_video hipizByP40fhJz 响应: 200
+视频 hipizByP40fhJz 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/hipizByP40fhJz.jpg，跳过下载。
+缩略图 hipizByP40fhJz 下载成功: /srv/video_downloader/data/downloads/thumbnails/hipizByP40fhJz.jpg
+[DEBUG] get_video dMFbIPWN7iWmaz 响应: 200
+下载视频 dMFbIPWN7iWmaz 最终失败: 解析视频 dMFbIPWN7iWmaz 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video L2Ts2RZAtjfTCR 响应: 200
+视频 L2Ts2RZAtjfTCR 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/L2Ts2RZAtjfTCR.jpg，跳过下载。
+缩略图 L2Ts2RZAtjfTCR 下载成功: /srv/video_downloader/data/downloads/thumbnails/L2Ts2RZAtjfTCR.jpg
+[DEBUG] get_video aYTRr5rJr8JC9Q 响应: 200
+下载视频 aYTRr5rJr8JC9Q 最终失败: 解析视频 aYTRr5rJr8JC9Q 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video LiiPiZNUEhhh9o 响应: 200
+下载视频 LiiPiZNUEhhh9o 最终失败: 解析视频 LiiPiZNUEhhh9o 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video ylVQ3c8Bnq249b 响应: 200
+视频 ylVQ3c8Bnq249b 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/ylVQ3c8Bnq249b.jpg，跳过下载。
+缩略图 ylVQ3c8Bnq249b 下载成功: /srv/video_downloader/data/downloads/thumbnails/ylVQ3c8Bnq249b.jpg
+[DEBUG] get_video fdiI6Hdilp4IX5 响应: 200
+下载视频 fdiI6Hdilp4IX5 最终失败: 解析视频 fdiI6Hdilp4IX5 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video N9yugct44NkI27 响应: 200
+下载视频 N9yugct44NkI27 最终失败: 解析视频 N9yugct44NkI27 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 N9yugct44NkI27 的下载状态: 失败
+[DEBUG] get_video hipizByP40fhJz 响应: 200
+下载视频 hipizByP40fhJz 最终失败: 解析视频 hipizByP40fhJz 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video L2Ts2RZAtjfTCR 响应: 200
+下载视频 L2Ts2RZAtjfTCR 最终失败: 解析视频 L2Ts2RZAtjfTCR 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video ylVQ3c8Bnq249b 响应: 200
+下载视频 ylVQ3c8Bnq249b 最终失败: 解析视频 ylVQ3c8Bnq249b 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+所有初始下载线程已结束。
+批量下载任务处理完毕。
+[警告] 尝试在未登录状态下获取视频列表
+[DEBUG] get_videos 响应: 200
+开始处理 24 个视频的下载任务...
+[DEBUG] get_video O1HBXxsPVZNed2 响应: 200
+视频 O1HBXxsPVZNed2 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/O1HBXxsPVZNed2.jpg，跳过下载。
+缩略图 O1HBXxsPVZNed2 下载成功: /srv/video_downloader/data/downloads/thumbnails/O1HBXxsPVZNed2.jpg
+[DEBUG] get_video sA3syBAK4bGcsg 响应: 200
+视频 sA3syBAK4bGcsg 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/sA3syBAK4bGcsg.jpg，跳过下载。
+缩略图 sA3syBAK4bGcsg 下载成功: /srv/video_downloader/data/downloads/thumbnails/sA3syBAK4bGcsg.jpg
+[DEBUG] get_video HmVEnkH3PY3JkZ 响应: 200
+视频 HmVEnkH3PY3JkZ 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/HmVEnkH3PY3JkZ.jpg，跳过下载。
+缩略图 HmVEnkH3PY3JkZ 下载成功: /srv/video_downloader/data/downloads/thumbnails/HmVEnkH3PY3JkZ.jpg
+[DEBUG] get_video kSUHRobcFKZYVr 响应: 200
+视频 kSUHRobcFKZYVr 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/kSUHRobcFKZYVr.jpg，跳过下载。
+缩略图 kSUHRobcFKZYVr 下载成功: /srv/video_downloader/data/downloads/thumbnails/kSUHRobcFKZYVr.jpg
+[DEBUG] get_video O1HBXxsPVZNed2 响应: 200
+下载视频 O1HBXxsPVZNed2 最终失败: 解析视频 O1HBXxsPVZNed2 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video CEaJ2Pl8KCWd8l 响应: 200
+视频 CEaJ2Pl8KCWd8l 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/CEaJ2Pl8KCWd8l.jpg，跳过下载。
+缩略图 CEaJ2Pl8KCWd8l 下载成功: /srv/video_downloader/data/downloads/thumbnails/CEaJ2Pl8KCWd8l.jpg
+[DEBUG] get_video sA3syBAK4bGcsg 响应: 200
+下载视频 sA3syBAK4bGcsg 最终失败: 解析视频 sA3syBAK4bGcsg 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 62Bco4fnZVMQuc 响应: 200
+视频 62Bco4fnZVMQuc 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/62Bco4fnZVMQuc.jpg，跳过下载。
+缩略图 62Bco4fnZVMQuc 下载成功: /srv/video_downloader/data/downloads/thumbnails/62Bco4fnZVMQuc.jpg
+[DEBUG] get_video cqLKsXIOy7ImD5 响应: 200
+视频 cqLKsXIOy7ImD5 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/cqLKsXIOy7ImD5.jpg，跳过下载。
+缩略图 cqLKsXIOy7ImD5 下载成功: /srv/video_downloader/data/downloads/thumbnails/cqLKsXIOy7ImD5.jpg
+[DEBUG] get_video HmVEnkH3PY3JkZ 响应: 200
+下载视频 HmVEnkH3PY3JkZ 最终失败: 解析视频 HmVEnkH3PY3JkZ 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video kSUHRobcFKZYVr 响应: 200
+下载视频 kSUHRobcFKZYVr 最终失败: 解析视频 kSUHRobcFKZYVr 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video x8xXwH4v6bOwqI 响应: 200
+视频 x8xXwH4v6bOwqI 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/x8xXwH4v6bOwqI.jpg，跳过下载。
+缩略图 x8xXwH4v6bOwqI 下载成功: /srv/video_downloader/data/downloads/thumbnails/x8xXwH4v6bOwqI.jpg
+[DEBUG] get_video CEaJ2Pl8KCWd8l 响应: 200
+下载视频 CEaJ2Pl8KCWd8l 最终失败: 解析视频 CEaJ2Pl8KCWd8l 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 CEaJ2Pl8KCWd8l 的下载状态: 失败
+[DEBUG] get_video jxYoGoArkoYkR2 响应: 200
+视频 jxYoGoArkoYkR2 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/jxYoGoArkoYkR2.jpg，跳过下载。
+缩略图 jxYoGoArkoYkR2 下载成功: /srv/video_downloader/data/downloads/thumbnails/jxYoGoArkoYkR2.jpg
+[DEBUG] get_video 62Bco4fnZVMQuc 响应: 200
+下载视频 62Bco4fnZVMQuc 最终失败: 解析视频 62Bco4fnZVMQuc 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video StueQVi1FbkLJX 响应: 200
+视频 StueQVi1FbkLJX 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/StueQVi1FbkLJX.jpg，跳过下载。
+缩略图 StueQVi1FbkLJX 下载成功: /srv/video_downloader/data/downloads/thumbnails/StueQVi1FbkLJX.jpg
+[DEBUG] get_video cqLKsXIOy7ImD5 响应: 200
+下载视频 cqLKsXIOy7ImD5 最终失败: 解析视频 cqLKsXIOy7ImD5 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video vrXzMWxIdp5M9u 响应: 200
+[DEBUG] get_video x8xXwH4v6bOwqI 响应: 200
+下载视频 x8xXwH4v6bOwqI 最终失败: 解析视频 x8xXwH4v6bOwqI 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频 vrXzMWxIdp5M9u 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/vrXzMWxIdp5M9u.jpg，跳过下载。
+缩略图 vrXzMWxIdp5M9u 下载成功: /srv/video_downloader/data/downloads/thumbnails/vrXzMWxIdp5M9u.jpg
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video EMni6azvUaZEl9 响应: 200
+视频 EMni6azvUaZEl9 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/EMni6azvUaZEl9.jpg，跳过下载。
+缩略图 EMni6azvUaZEl9 下载成功: /srv/video_downloader/data/downloads/thumbnails/EMni6azvUaZEl9.jpg
+[DEBUG] get_video jxYoGoArkoYkR2 响应: 200
+下载视频 jxYoGoArkoYkR2 最终失败: 解析视频 jxYoGoArkoYkR2 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video pwrhhsokXEt0pp 响应: 200
+视频 pwrhhsokXEt0pp 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/pwrhhsokXEt0pp.jpg，跳过下载。
+缩略图 pwrhhsokXEt0pp 下载成功: /srv/video_downloader/data/downloads/thumbnails/pwrhhsokXEt0pp.jpg
+[DEBUG] get_video StueQVi1FbkLJX 响应: 200
+下载视频 StueQVi1FbkLJX 最终失败: 解析视频 StueQVi1FbkLJX 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video k0IvMBjXBSeXmT 响应: 200
+视频 k0IvMBjXBSeXmT 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/k0IvMBjXBSeXmT.jpg，跳过下载。
+缩略图 k0IvMBjXBSeXmT 下载成功: /srv/video_downloader/data/downloads/thumbnails/k0IvMBjXBSeXmT.jpg
+[DEBUG] get_video vrXzMWxIdp5M9u 响应: 200
+下载视频 vrXzMWxIdp5M9u 最终失败: 解析视频 vrXzMWxIdp5M9u 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video aPr887K3MvTPdm 响应: 200
+视频 aPr887K3MvTPdm 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/aPr887K3MvTPdm.jpg，跳过下载。
+缩略图 aPr887K3MvTPdm 下载成功: /srv/video_downloader/data/downloads/thumbnails/aPr887K3MvTPdm.jpg
+[DEBUG] get_video EMni6azvUaZEl9 响应: 200
+下载视频 EMni6azvUaZEl9 最终失败: 解析视频 EMni6azvUaZEl9 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 EMni6azvUaZEl9 的下载状态: 失败
+[DEBUG] get_video KKPt6KFoztJWwJ 响应: 200
+视频 KKPt6KFoztJWwJ 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/KKPt6KFoztJWwJ.jpg，跳过下载。
+缩略图 KKPt6KFoztJWwJ 下载成功: /srv/video_downloader/data/downloads/thumbnails/KKPt6KFoztJWwJ.jpg
+[DEBUG] get_video pwrhhsokXEt0pp 响应: 200
+下载视频 pwrhhsokXEt0pp 最终失败: 解析视频 pwrhhsokXEt0pp 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video HrujRxu3xt05GB 响应: 200
+视频 HrujRxu3xt05GB 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/HrujRxu3xt05GB.jpg，跳过下载。
+缩略图 HrujRxu3xt05GB 下载成功: /srv/video_downloader/data/downloads/thumbnails/HrujRxu3xt05GB.jpg
+[DEBUG] get_video k0IvMBjXBSeXmT 响应: 200
+下载视频 k0IvMBjXBSeXmT 最终失败: 解析视频 k0IvMBjXBSeXmT 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 k0IvMBjXBSeXmT 的下载状态: 失败
+[DEBUG] get_video QNVbBip62HlGqh 响应: 200
+视频 QNVbBip62HlGqh 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/QNVbBip62HlGqh.jpg，跳过下载。
+缩略图 QNVbBip62HlGqh 下载成功: /srv/video_downloader/data/downloads/thumbnails/QNVbBip62HlGqh.jpg
+[DEBUG] get_video aPr887K3MvTPdm 响应: 200
+下载视频 aPr887K3MvTPdm 最终失败: 解析视频 aPr887K3MvTPdm 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video gCi78PFjj8TUSH 响应: 200
+视频 gCi78PFjj8TUSH 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/gCi78PFjj8TUSH.jpg，跳过下载。
+缩略图 gCi78PFjj8TUSH 下载成功: /srv/video_downloader/data/downloads/thumbnails/gCi78PFjj8TUSH.jpg
+[DEBUG] get_video KKPt6KFoztJWwJ 响应: 200
+下载视频 KKPt6KFoztJWwJ 最终失败: 解析视频 KKPt6KFoztJWwJ 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video NoStutQ2nzCyOv 响应: 200
+视频 NoStutQ2nzCyOv 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/NoStutQ2nzCyOv.jpg，跳过下载。
+缩略图 NoStutQ2nzCyOv 下载成功: /srv/video_downloader/data/downloads/thumbnails/NoStutQ2nzCyOv.jpg
+[DEBUG] get_video HrujRxu3xt05GB 响应: 200
+下载视频 HrujRxu3xt05GB 最终失败: 解析视频 HrujRxu3xt05GB 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video VAUqawtEt4e8Mv 响应: 200
+开始下载视频 VAUqawtEt4e8Mv 的缩略图...
+[DEBUG] get_video QNVbBip62HlGqh 响应: 200
+下载视频 QNVbBip62HlGqh 最终失败: 解析视频 QNVbBip62HlGqh 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video gCi78PFjj8TUSH 响应: 200
+下载视频 gCi78PFjj8TUSH 最终失败: 解析视频 gCi78PFjj8TUSH 下载资源响应失败: can only concatenate str (not "NoneType") to str
+等待所有初始下载线程完成...
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video yb6F0iGhkrTe0E 响应: 200
+视频 yb6F0iGhkrTe0E 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/yb6F0iGhkrTe0E.jpg，跳过下载。
+缩略图 yb6F0iGhkrTe0E 下载成功: /srv/video_downloader/data/downloads/thumbnails/yb6F0iGhkrTe0E.jpg
+[DEBUG] get_video 3oHJMhOFNMyZxf 响应: 200
+开始下载视频 3oHJMhOFNMyZxf 的缩略图...
+[DEBUG] get_video NoStutQ2nzCyOv 响应: 200
+下载视频 NoStutQ2nzCyOv 最终失败: 解析视频 NoStutQ2nzCyOv 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video pRWAB7vUlbuIec 响应: 200
+视频 pRWAB7vUlbuIec 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/pRWAB7vUlbuIec.jpg，跳过下载。
+缩略图 pRWAB7vUlbuIec 下载成功: /srv/video_downloader/data/downloads/thumbnails/pRWAB7vUlbuIec.jpg
+[DEBUG] get_video yb6F0iGhkrTe0E 响应: 200
+下载视频 yb6F0iGhkrTe0E 最终失败: 解析视频 yb6F0iGhkrTe0E 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video pRWAB7vUlbuIec 响应: 200
+下载视频 pRWAB7vUlbuIec 最终失败: 解析视频 pRWAB7vUlbuIec 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+视频 VAUqawtEt4e8Mv 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/VAUqawtEt4e8Mv.jpg
+缩略图 VAUqawtEt4e8Mv 下载成功: /srv/video_downloader/data/downloads/thumbnails/VAUqawtEt4e8Mv.jpg
+视频 3oHJMhOFNMyZxf 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/3oHJMhOFNMyZxf.jpg
+缩略图 3oHJMhOFNMyZxf 下载成功: /srv/video_downloader/data/downloads/thumbnails/3oHJMhOFNMyZxf.jpg
+[DEBUG] get_video VAUqawtEt4e8Mv 响应: 200
+下载视频 VAUqawtEt4e8Mv 最终失败: 解析视频 VAUqawtEt4e8Mv 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 VAUqawtEt4e8Mv 的下载状态: 失败
+[DEBUG] get_video 3oHJMhOFNMyZxf 响应: 200
+下载视频 3oHJMhOFNMyZxf 最终失败: 解析视频 3oHJMhOFNMyZxf 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 3oHJMhOFNMyZxf 的下载状态: 失败
+所有初始下载线程已结束。
+批量下载任务处理完毕。
+[警告] 尝试在未登录状态下获取视频列表
+[DEBUG] get_videos 响应: 200
+开始处理 32 个视频的下载任务...
+[DEBUG] get_video HrujRxu3xt05GB 响应: 200
+视频 HrujRxu3xt05GB 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/HrujRxu3xt05GB.jpg，跳过下载。
+缩略图 HrujRxu3xt05GB 下载成功: /srv/video_downloader/data/downloads/thumbnails/HrujRxu3xt05GB.jpg
+[DEBUG] get_video QNVbBip62HlGqh 响应: 200
+视频 QNVbBip62HlGqh 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/QNVbBip62HlGqh.jpg，跳过下载。
+缩略图 QNVbBip62HlGqh 下载成功: /srv/video_downloader/data/downloads/thumbnails/QNVbBip62HlGqh.jpg
+[DEBUG] get_video gCi78PFjj8TUSH 响应: 200
+视频 gCi78PFjj8TUSH 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/gCi78PFjj8TUSH.jpg，跳过下载。
+缩略图 gCi78PFjj8TUSH 下载成功: /srv/video_downloader/data/downloads/thumbnails/gCi78PFjj8TUSH.jpg
+[DEBUG] get_video NoStutQ2nzCyOv 响应: 200
+视频 NoStutQ2nzCyOv 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/NoStutQ2nzCyOv.jpg，跳过下载。
+缩略图 NoStutQ2nzCyOv 下载成功: /srv/video_downloader/data/downloads/thumbnails/NoStutQ2nzCyOv.jpg
+[DEBUG] get_video HrujRxu3xt05GB 响应: 200
+下载视频 HrujRxu3xt05GB 最终失败: 解析视频 HrujRxu3xt05GB 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video QNVbBip62HlGqh 响应: 200
+下载视频 QNVbBip62HlGqh 最终失败: 解析视频 QNVbBip62HlGqh 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video VAUqawtEt4e8Mv 响应: 200
+视频已经下载完成，修改json文件失败
+视频 VAUqawtEt4e8Mv 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/VAUqawtEt4e8Mv.jpg，跳过下载。
+缩略图 VAUqawtEt4e8Mv 下载成功: /srv/video_downloader/data/downloads/thumbnails/VAUqawtEt4e8Mv.jpg
+[DEBUG] get_video yb6F0iGhkrTe0E 响应: 200
+视频 yb6F0iGhkrTe0E 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/yb6F0iGhkrTe0E.jpg，跳过下载。
+缩略图 yb6F0iGhkrTe0E 下载成功: /srv/video_downloader/data/downloads/thumbnails/yb6F0iGhkrTe0E.jpg
+[DEBUG] get_video gCi78PFjj8TUSH 响应: 200
+下载视频 gCi78PFjj8TUSH 最终失败: 解析视频 gCi78PFjj8TUSH 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 3oHJMhOFNMyZxf 响应: 200
+视频 3oHJMhOFNMyZxf 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/3oHJMhOFNMyZxf.jpg，跳过下载。
+缩略图 3oHJMhOFNMyZxf 下载成功: /srv/video_downloader/data/downloads/thumbnails/3oHJMhOFNMyZxf.jpg
+[DEBUG] get_video NoStutQ2nzCyOv 响应: 200
+下载视频 NoStutQ2nzCyOv 最终失败: 解析视频 NoStutQ2nzCyOv 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video pRWAB7vUlbuIec 响应: 200
+视频 pRWAB7vUlbuIec 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/pRWAB7vUlbuIec.jpg，跳过下载。
+缩略图 pRWAB7vUlbuIec 下载成功: /srv/video_downloader/data/downloads/thumbnails/pRWAB7vUlbuIec.jpg
+[DEBUG] get_video VAUqawtEt4e8Mv 响应: 200
+下载视频 VAUqawtEt4e8Mv 最终失败: 解析视频 VAUqawtEt4e8Mv 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 VAUqawtEt4e8Mv 的下载状态: 失败
+[DEBUG] get_video zs6Tx8jq1zyqg5 响应: 200
+视频 zs6Tx8jq1zyqg5 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/zs6Tx8jq1zyqg5.jpg，跳过下载。
+缩略图 zs6Tx8jq1zyqg5 下载成功: /srv/video_downloader/data/downloads/thumbnails/zs6Tx8jq1zyqg5.jpg
+[DEBUG] get_video yb6F0iGhkrTe0E 响应: 200
+下载视频 yb6F0iGhkrTe0E 最终失败: 解析视频 yb6F0iGhkrTe0E 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 3oHJMhOFNMyZxf 响应: 200
+下载视频 3oHJMhOFNMyZxf 最终失败: 解析视频 3oHJMhOFNMyZxf 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 3oHJMhOFNMyZxf 的下载状态: 失败
+[DEBUG] get_video L17PfiQV89wFw0 响应: 200
+视频 L17PfiQV89wFw0 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/L17PfiQV89wFw0.jpg，跳过下载。
+缩略图 L17PfiQV89wFw0 下载成功: /srv/video_downloader/data/downloads/thumbnails/L17PfiQV89wFw0.jpg
+[DEBUG] get_video XemUaUEhBQDWZn 响应: 200
+视频 XemUaUEhBQDWZn 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/XemUaUEhBQDWZn.jpg，跳过下载。
+缩略图 XemUaUEhBQDWZn 下载成功: /srv/video_downloader/data/downloads/thumbnails/XemUaUEhBQDWZn.jpg
+[DEBUG] get_video pRWAB7vUlbuIec 响应: 200
+下载视频 pRWAB7vUlbuIec 最终失败: 解析视频 pRWAB7vUlbuIec 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video P5SVssD45JJ3Yy 响应: 200
+开始下载视频 P5SVssD45JJ3Yy 的缩略图...
+[DEBUG] get_video zs6Tx8jq1zyqg5 响应: 200
+下载视频 zs6Tx8jq1zyqg5 最终失败: 解析视频 zs6Tx8jq1zyqg5 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video 67nb12rTE8INxb 响应: 200
+开始下载视频 67nb12rTE8INxb 的缩略图...
+[DEBUG] get_video L17PfiQV89wFw0 响应: 200
+下载视频 L17PfiQV89wFw0 最终失败: 解析视频 L17PfiQV89wFw0 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video qbZq8PSFPwhNvF 响应: 200
+开始下载视频 qbZq8PSFPwhNvF 的缩略图...
+[DEBUG] get_video XemUaUEhBQDWZn 响应: 200
+下载视频 XemUaUEhBQDWZn 最终失败: 解析视频 XemUaUEhBQDWZn 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video f1OwLfrS9yjb6l 响应: 200
+视频 f1OwLfrS9yjb6l 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/f1OwLfrS9yjb6l.jpg，跳过下载。
+缩略图 f1OwLfrS9yjb6l 下载成功: /srv/video_downloader/data/downloads/thumbnails/f1OwLfrS9yjb6l.jpg
+[DEBUG] get_video IR37fe1UB4oMzl 响应: 200
+开始下载视频 IR37fe1UB4oMzl 的缩略图...
+[DEBUG] get_video 2gauVFxelS3rBR 响应: 200
+视频 2gauVFxelS3rBR 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/2gauVFxelS3rBR.jpg，跳过下载。
+缩略图 2gauVFxelS3rBR 下载成功: /srv/video_downloader/data/downloads/thumbnails/2gauVFxelS3rBR.jpg
+[DEBUG] get_video f1OwLfrS9yjb6l 响应: 200
+下载视频 f1OwLfrS9yjb6l 最终失败: 解析视频 f1OwLfrS9yjb6l 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video X2dTG3HYasTK5S 响应: 200
+开始下载视频 X2dTG3HYasTK5S 的缩略图...
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video hxc0OH0UuVCKmH 响应: 200
+视频 hxc0OH0UuVCKmH 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/hxc0OH0UuVCKmH.jpg，跳过下载。
+缩略图 hxc0OH0UuVCKmH 下载成功: /srv/video_downloader/data/downloads/thumbnails/hxc0OH0UuVCKmH.jpg
+[DEBUG] get_video 2gauVFxelS3rBR 响应: 200
+下载视频 2gauVFxelS3rBR 最终失败: 解析视频 2gauVFxelS3rBR 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video jcacvlvBIiLVtq 响应: 200
+开始下载视频 jcacvlvBIiLVtq 的缩略图...
+[DEBUG] get_video MhKgtWHOKsNfEr 响应: 200
+视频 MhKgtWHOKsNfEr 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/MhKgtWHOKsNfEr.jpg，跳过下载。
+缩略图 MhKgtWHOKsNfEr 下载成功: /srv/video_downloader/data/downloads/thumbnails/MhKgtWHOKsNfEr.jpg
+视频 67nb12rTE8INxb 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/67nb12rTE8INxb.jpg
+缩略图 67nb12rTE8INxb 下载成功: /srv/video_downloader/data/downloads/thumbnails/67nb12rTE8INxb.jpg
+视频 P5SVssD45JJ3Yy 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/P5SVssD45JJ3Yy.jpg
+缩略图 P5SVssD45JJ3Yy 下载成功: /srv/video_downloader/data/downloads/thumbnails/P5SVssD45JJ3Yy.jpg
+[DEBUG] get_video 3i0DyOkPCHi3nI 响应: 200
+开始下载视频 3i0DyOkPCHi3nI 的缩略图...
+[DEBUG] get_video hxc0OH0UuVCKmH 响应: 200
+下载视频 hxc0OH0UuVCKmH 最终失败: 解析视频 hxc0OH0UuVCKmH 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video IfSKtMpn4gI6DB 响应: 200
+视频 IfSKtMpn4gI6DB 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/IfSKtMpn4gI6DB.jpg，跳过下载。
+缩略图 IfSKtMpn4gI6DB 下载成功: /srv/video_downloader/data/downloads/thumbnails/IfSKtMpn4gI6DB.jpg
+[DEBUG] get_video vgbNuYmu2CWmvT 响应: 200
+视频 vgbNuYmu2CWmvT 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/vgbNuYmu2CWmvT.jpg，跳过下载。
+缩略图 vgbNuYmu2CWmvT 下载成功: /srv/video_downloader/data/downloads/thumbnails/vgbNuYmu2CWmvT.jpg
+视频 qbZq8PSFPwhNvF 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/qbZq8PSFPwhNvF.jpg
+缩略图 qbZq8PSFPwhNvF 下载成功: /srv/video_downloader/data/downloads/thumbnails/qbZq8PSFPwhNvF.jpg
+[DEBUG] get_video MhKgtWHOKsNfEr 响应: 200
+下载视频 MhKgtWHOKsNfEr 最终失败: 解析视频 MhKgtWHOKsNfEr 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video 2FdyJ4CoZR4EUu 响应: 200
+开始下载视频 2FdyJ4CoZR4EUu 的缩略图...
+视频已经下载完成，修改json文件失败
+视频 IR37fe1UB4oMzl 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/IR37fe1UB4oMzl.jpg
+缩略图 IR37fe1UB4oMzl 下载成功: /srv/video_downloader/data/downloads/thumbnails/IR37fe1UB4oMzl.jpg
+[DEBUG] get_video P5SVssD45JJ3Yy 响应: 200
+下载视频 P5SVssD45JJ3Yy 最终失败: 解析视频 P5SVssD45JJ3Yy 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video 67nb12rTE8INxb 响应: 200
+下载视频 67nb12rTE8INxb 最终失败: 解析视频 67nb12rTE8INxb 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 P5SVssD45JJ3Yy 的下载状态: 失败
+[DEBUG] get_video IfSKtMpn4gI6DB 响应: 200
+[DEBUG] get_video CkJ3A46L6Wzfh7 响应: 200
+下载视频 IfSKtMpn4gI6DB 最终失败: 解析视频 IfSKtMpn4gI6DB 下载资源响应失败: can only concatenate str (not "NoneType") to str
+开始下载视频 CkJ3A46L6Wzfh7 的缩略图...
+[DEBUG] get_video q3clhJY6JBDSUQ 响应: 200
+[日志] 更新视频 67nb12rTE8INxb 的下载状态: 失败
+开始下载视频 q3clhJY6JBDSUQ 的缩略图...
+[DEBUG] get_video vgbNuYmu2CWmvT 响应: 200
+下载视频 vgbNuYmu2CWmvT 最终失败: 解析视频 vgbNuYmu2CWmvT 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video qbZq8PSFPwhNvF 响应: 200
+下载视频 qbZq8PSFPwhNvF 最终失败: 解析视频 qbZq8PSFPwhNvF 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+视频已经下载完成，修改json文件失败
+[日志] 更新视频 qbZq8PSFPwhNvF 的下载状态: 失败
+[DEBUG] get_video IR37fe1UB4oMzl 响应: 200
+下载视频 IR37fe1UB4oMzl 最终失败: 解析视频 IR37fe1UB4oMzl 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video nWt0YkhM7hfC78 响应: 200
+视频 nWt0YkhM7hfC78 的缩略图已存在于 /srv/video_downloader/data/downloads/thumbnails/nWt0YkhM7hfC78.jpg，跳过下载。
+缩略图 nWt0YkhM7hfC78 下载成功: /srv/video_downloader/data/downloads/thumbnails/nWt0YkhM7hfC78.jpg
+[日志] 更新视频 IR37fe1UB4oMzl 的下载状态: 失败
+[DEBUG] get_video 1hGdtjB2tnOLbB 响应: 200
+开始下载视频 1hGdtjB2tnOLbB 的缩略图...
+等待所有初始下载线程完成...
+视频 X2dTG3HYasTK5S 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/X2dTG3HYasTK5S.jpg
+缩略图 X2dTG3HYasTK5S 下载成功: /srv/video_downloader/data/downloads/thumbnails/X2dTG3HYasTK5S.jpg
+[DEBUG] get_video CKtL3mXBlUT7AM 响应: 200
+开始下载视频 CKtL3mXBlUT7AM 的缩略图...
+视频 3i0DyOkPCHi3nI 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/3i0DyOkPCHi3nI.jpg
+缩略图 3i0DyOkPCHi3nI 下载成功: /srv/video_downloader/data/downloads/thumbnails/3i0DyOkPCHi3nI.jpg
+视频 jcacvlvBIiLVtq 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/jcacvlvBIiLVtq.jpg
+缩略图 jcacvlvBIiLVtq 下载成功: /srv/video_downloader/data/downloads/thumbnails/jcacvlvBIiLVtq.jpg
+[DEBUG] get_video pooPSCyJ5OXAmQ 响应: 200
+开始下载视频 pooPSCyJ5OXAmQ 的缩略图...
+[DEBUG] get_video deuUy34XEELV2a 响应: 200
+开始下载视频 deuUy34XEELV2a 的缩略图...
+[DEBUG] get_video nWt0YkhM7hfC78 响应: 200
+下载视频 nWt0YkhM7hfC78 最终失败: 解析视频 nWt0YkhM7hfC78 下载资源响应失败: can only concatenate str (not "NoneType") to str
+视频已经下载完成，修改json文件失败
+[DEBUG] get_video X2dTG3HYasTK5S 响应: 200
+下载视频 X2dTG3HYasTK5S 最终失败: 解析视频 X2dTG3HYasTK5S 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 X2dTG3HYasTK5S 的下载状态: 失败
+[DEBUG] get_video jcacvlvBIiLVtq 响应: 200
+下载视频 jcacvlvBIiLVtq 最终失败: 解析视频 jcacvlvBIiLVtq 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 jcacvlvBIiLVtq 的下载状态: 失败
+[DEBUG] get_video 3i0DyOkPCHi3nI 响应: 200
+下载视频 3i0DyOkPCHi3nI 最终失败: 解析视频 3i0DyOkPCHi3nI 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 3i0DyOkPCHi3nI 的下载状态: 失败
+视频 2FdyJ4CoZR4EUu 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/2FdyJ4CoZR4EUu.jpg
+缩略图 2FdyJ4CoZR4EUu 下载成功: /srv/video_downloader/data/downloads/thumbnails/2FdyJ4CoZR4EUu.jpg
+视频 CkJ3A46L6Wzfh7 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/CkJ3A46L6Wzfh7.jpg
+缩略图 CkJ3A46L6Wzfh7 下载成功: /srv/video_downloader/data/downloads/thumbnails/CkJ3A46L6Wzfh7.jpg
+视频 q3clhJY6JBDSUQ 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/q3clhJY6JBDSUQ.jpg
+缩略图 q3clhJY6JBDSUQ 下载成功: /srv/video_downloader/data/downloads/thumbnails/q3clhJY6JBDSUQ.jpg
+[DEBUG] get_video 2FdyJ4CoZR4EUu 响应: 200
+下载视频 2FdyJ4CoZR4EUu 最终失败: 解析视频 2FdyJ4CoZR4EUu 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 2FdyJ4CoZR4EUu 的下载状态: 失败
+[DEBUG] get_video CkJ3A46L6Wzfh7 响应: 200
+下载视频 CkJ3A46L6Wzfh7 最终失败: 解析视频 CkJ3A46L6Wzfh7 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 CkJ3A46L6Wzfh7 的下载状态: 失败
+视频 1hGdtjB2tnOLbB 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/1hGdtjB2tnOLbB.jpg
+视频 CKtL3mXBlUT7AM 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/CKtL3mXBlUT7AM.jpg
+缩略图 1hGdtjB2tnOLbB 下载成功: /srv/video_downloader/data/downloads/thumbnails/1hGdtjB2tnOLbB.jpg
+缩略图 CKtL3mXBlUT7AM 下载成功: /srv/video_downloader/data/downloads/thumbnails/CKtL3mXBlUT7AM.jpg
+[DEBUG] get_video q3clhJY6JBDSUQ 响应: 200
+下载视频 q3clhJY6JBDSUQ 最终失败: 解析视频 q3clhJY6JBDSUQ 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 q3clhJY6JBDSUQ 的下载状态: 失败
+视频 deuUy34XEELV2a 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/deuUy34XEELV2a.jpg
+缩略图 deuUy34XEELV2a 下载成功: /srv/video_downloader/data/downloads/thumbnails/deuUy34XEELV2a.jpg
+视频 pooPSCyJ5OXAmQ 的缩略图下载完成，保存至 /srv/video_downloader/data/downloads/thumbnails/pooPSCyJ5OXAmQ.jpg
+缩略图 pooPSCyJ5OXAmQ 下载成功: /srv/video_downloader/data/downloads/thumbnails/pooPSCyJ5OXAmQ.jpg
+[DEBUG] get_video CKtL3mXBlUT7AM 响应: 200
+下载视频 CKtL3mXBlUT7AM 最终失败: 解析视频 CKtL3mXBlUT7AM 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 CKtL3mXBlUT7AM 的下载状态: 失败
+[DEBUG] get_video 1hGdtjB2tnOLbB 响应: 200
+下载视频 1hGdtjB2tnOLbB 最终失败: 解析视频 1hGdtjB2tnOLbB 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 1hGdtjB2tnOLbB 的下载状态: 失败
+[DEBUG] get_video deuUy34XEELV2a 响应: 200
+下载视频 deuUy34XEELV2a 最终失败: 解析视频 deuUy34XEELV2a 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[DEBUG] get_video pooPSCyJ5OXAmQ 响应: 200
+下载视频 pooPSCyJ5OXAmQ 最终失败: 解析视频 pooPSCyJ5OXAmQ 下载资源响应失败: can only concatenate str (not "NoneType") to str
+[日志] 更新视频 deuUy34XEELV2a 的下载状态: 失败
+[日志] 更新视频 pooPSCyJ5OXAmQ 的下载状态: 失败
+所有初始下载线程已结束。
+批量下载任务处理完毕。
