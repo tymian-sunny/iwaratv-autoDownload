@@ -24,8 +24,11 @@ def json_read():
     global LOG_FILE
 
     base_path = os.path.dirname(os.path.abspath(__file__))
+    print(f"base_path: {base_path}")
     config_path = os.path.join(base_path, 'config.json')
+    print(f"config_path: {config_path}")
     LOG_FILE = os.path.join(base_path, 'download_log.json')
+    print(f"LOG_FILE: {LOG_FILE}")
 
     try:
         with open(config_path, 'r') as f:
