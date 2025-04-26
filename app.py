@@ -13,6 +13,7 @@ from requests.exceptions import RequestException # 导入 requests 的异常
 
 # 定义日志文件名
 LOG_FILE = "download_log.json"
+config_path = ""
 
 email = "your_email@example.com"  # 替换为你的邮箱
 password = "your_password"  # 替换为你的密码
@@ -20,11 +21,14 @@ password = "your_password"  # 替换为你的密码
 # 读取账号密码
 def json_read():
     try:
-        with open('config.json', 'r') as f:
+        with open(config_path, 'r') as f:
             data = json.load(f)
         return data
     except FileNotFoundError:
         print("config.json not found")
+    except json.JSONDecodeError as e:
+        print(f"config.json 格式错误:{e}")
+    return None
 
 # --- 新增：JSON 日志记录函数 ---
 def log_download_info(lock, video_id,avatar_name,video_title,video_numComments,video_numLikes,video_numViews,video_tagList,video_createTime,timestamp, video_path, thumbnail_path,  video_size_bytes, success):
@@ -274,8 +278,17 @@ def videoUpdate():
     # 确保下载目录和缩略图目录存在 (虽然下载函数会创建，但预先创建更好)
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     os.makedirs(THUMBNAIL_DIR, exist_ok=True)
+    
+    # 获取文件路径
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    config_path = os.path.join(base_path,'config.json')
+    LOG_FILE = os.path.join(base_path,'download_log.json')
+    print(f"config.json路径为: {config_path}\ndownload_log.json路径为: {LOG_FILE}")
 
     data = json_read()
+    if data is None:
+        print("配置文件读取失败，程序中止")
+        exit(1)
 
     email = data['email']
     password = data['password']
@@ -289,13 +302,12 @@ def videoUpdate():
             client.login()  # 登录，如果失败会抛出 ConnectionError
         except ConnectionError as e:
             print(f"无法继续下载，登录失败: {e}")
-
+        
         for k in range(0,1):
             style = True if range == 0 else False
             for i in range(0,3):
                 for j in range(1,5):
                     batch_download_videos(client,email, password, sort='trending', rating='all', page=i, limit=j*8,subscribed=style)
-
 # --- 使用示例 ---
 if __name__ == "__main__":
     videoUpdate()
