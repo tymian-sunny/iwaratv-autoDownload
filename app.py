@@ -20,6 +20,7 @@ password = "your_password"  # 替换为你的密码
 
 # 读取账号密码
 def json_read():
+    config_path = os.path.join(base_path, 'config.json')
     try:
         with open(config_path, 'r') as f:
             data = json.load(f)
