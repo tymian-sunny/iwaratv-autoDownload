@@ -70,6 +70,11 @@ def log_download_info(lock, video_id,avatar_name,video_title,video_numComments,v
             else:
                 local_id = log_data[video_id]['local_id']
 
+                # 如果查得到是本地序列号，说明条目已存在，查询是否已经曾下载完成
+                # 如果视频已经下载完成则直接退出
+                if log_data[video_id]['success']:
+                    return
+
             # 准备新的日志条目
             video_size_mb = round(video_size_bytes / (1024 * 1024), 1) if video_size_bytes else 0.0
             log_entry = {
@@ -260,8 +265,7 @@ def batch_download_videos(client,email, password, sort='date', rating='all', pag
 
     print("批量下载任务处理完毕。")
 
-# --- 使用示例 ---
-if __name__ == "__main__":
+def videoUpdate():
     # 确保下载目录和缩略图目录存在 (虽然下载函数会创建，但预先创建更好)
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     os.makedirs(THUMBNAIL_DIR, exist_ok=True)
@@ -282,5 +286,11 @@ if __name__ == "__main__":
             print(f"无法继续下载，登录失败: {e}")
 
         for i in range(0,3):
+            style = False if (range == 0) else True
+            print(style)
             for j in range(1,5):
                 batch_download_videos(client,email, password, sort='trending', rating='all', page=i, limit=j*8)
+
+# --- 使用示例 ---
+if __name__ == "__main__":
+    videoUpdate()

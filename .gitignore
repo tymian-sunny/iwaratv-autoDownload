@@ -1,6 +1,5 @@
-downloads/
+.idea
 __pycache__/
-.idea/
-download_log.json/
-config.json/
-.gitignore/
+downloads/
+config.json
+download_log.json
