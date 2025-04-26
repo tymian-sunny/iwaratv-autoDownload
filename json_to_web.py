@@ -4,10 +4,22 @@ from flask import Flask, jsonify
 import json
 from flask_cors import CORS
 from app import LOG_FILE  # 导入ApiClient和目录常量
+import socket
 
 
 app = Flask(__name__)
 CORS(app)
+
+def ipconfig():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.connect(("8.8.8.8", 80))
+    return s.getsockname()[0]
+
+@app.route('/getIp',methods = ['GET'])
+def get_ip():
+    return jsonify({"id": ipconfig() })
+
+
 @app.route('/ecchiData')
 def get_data():
     base_path = os.path.dirname(os.path.abspath(__file__))
