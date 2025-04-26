@@ -19,7 +19,7 @@ email = "your_email@example.com"  # 替换为你的邮箱
 password = "your_password"  # 替换为你的密码
 
 # 读取账号密码
-def json_read(config_path):
+def json_read():
     try:
         with open(config_path, 'r') as f:
             data = json.load(f)
@@ -286,7 +286,7 @@ if __name__ == "__main__":
     LOG_FILE = os.path.join(base_path, 'download_log.json')
     print(f"config.json路径为: {config_path}\ndownload_log.json路径为: {LOG_FILE}")
 
-    data = json_read(config_path)
+    data = json_read()
     if data is None:
         print("配置文件读取失败，程序中止")
         exit(1)
