@@ -17,7 +17,7 @@ CORS(app)
 
 @app.route('/updateVideo')
 def update_video():
-    subprocess.run(['./app.sh'])
+    subprocess.run(['./app.sh'], cwd="/home/user/project")
 
 
 @app.route('/downloadVideoById', methods=['GET'])
