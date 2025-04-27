@@ -7,8 +7,10 @@ import urllib3
 from http.client import IncompleteRead # 引入 IncompleteRead 以便在 app.py 中捕获
 from requests.exceptions import RequestException # 导入 requ
 
+BASE_DATA_DIR = "/srv/video_downloader/data"
+
 # 定义下载目录
-DOWNLOAD_DIR = os.path.join(os.getcwd(), "downloads")
+DOWNLOAD_DIR = os.path.join(BASE_DATA_DIR, "downloads")
 # 定义缩略图存储目录 (视频目录下的 thumbnails 子目录)
 THUMBNAIL_DIR = os.path.join(DOWNLOAD_DIR, "thumbnails")
 # 最大重试次数
