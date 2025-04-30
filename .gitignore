@@ -1,5 +1,5 @@
-downloads/
-__pycache__/
 .idea/
-download_log.json
+__pycache__/
+downloads/
 config.json
+download_log.json

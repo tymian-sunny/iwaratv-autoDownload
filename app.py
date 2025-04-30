@@ -20,6 +20,16 @@ password = "your_password"  # 替换为你的密码
 
 # 读取账号密码
 def json_read():
+    global config_path
+    global LOG_FILE
+
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    print(f"base_path: {base_path}")
+    config_path = os.path.join(base_path, 'config.json')
+    print(f"config_path: {config_path}")
+    LOG_FILE = os.path.join(base_path, 'download_log.json')
+    print(f"LOG_FILE: {LOG_FILE}")
+
     try:
         with open(config_path, 'r') as f:
             data = json.load(f)
@@ -77,6 +87,11 @@ def log_download_info(lock, video_id,avatar_name,video_title,video_numComments,v
                 # 如果视频已经下载完成则直接退出
                 if log_data[video_id]['success']:
                     print("视频已经下载完成，修改json文件失败")
+                    return
+
+                # 如果查得到是本地序列号，说明条目已存在，查询是否已经曾下载完成
+                # 如果视频已经下载完成则直接退出
+                if log_data[video_id]['success']:
                     return
 
             # 准备新的日志条目
@@ -276,10 +291,10 @@ if __name__ == "__main__":
     os.makedirs(THUMBNAIL_DIR, exist_ok=True)
 
     # 获取文件路径
-    base_path = os.path.dirname(os.path.abspath(__file__))
-    config_path = os.path.join(base_path,'config.json')
-    LOG_FILE = os.path.join(base_path,'download_log.json')
-    print(f"config.json路径为: {config_path}\ndownload_log.json路径为: {LOG_FILE}")
+    # base_path = os.path.dirname(os.path.abspath(__file__))
+    # config_path = os.path.join(base_path, 'config.json')
+    # LOG_FILE = os.path.join(base_path, 'download_log.json')
+    # print(f"config.json路径为: {config_path}\ndownload_log.json路径为: {LOG_FILE}")
 
     data = json_read()
     if data is None:
@@ -290,7 +305,7 @@ if __name__ == "__main__":
     password = data['password']
 
     if email == "your_email@example.com" or password == "your_password":
-         print("请在 config.json 中替换你的邮箱和密码！")
+        print("请在 config.json 中替换你的邮箱和密码！")
     else:
         # 下载最新的3页32个视频/页共96个视频
         try:
@@ -298,9 +313,10 @@ if __name__ == "__main__":
             client.login()  # 登录，如果失败会抛出 ConnectionError
         except ConnectionError as e:
             print(f"无法继续下载，登录失败: {e}")
-        
-        for k in range(0,1):
+
+        for k in range(0, 1):
             style = True if range == 0 else False
-            for i in range(0,3):
-                for j in range(1,5):
-                    batch_download_videos(client,email, password, sort='trending', rating='all', page=i, limit=j*8,subscribed=style)
+            for i in range(0, 3):
+                for j in range(1, 5):
+                    batch_download_videos(client, email, password, sort='trending', rating='all', page=i, limit=j * 8,
+                                          subscribed=style)

@@ -5,6 +5,7 @@ import time
 import requests, hashlib, os
 import urllib3
 from http.client import IncompleteRead # 引入 IncompleteRead 以便在 app.py 中捕获
+from requests.exceptions import RequestException # 导入 requ
 
 BASE_DATA_DIR = "/srv/video_downloader/data"
 
@@ -58,7 +59,7 @@ class ApiClient:
             r = requests.post(url, json=json, timeout=self.timeout)
             r.raise_for_status() # 检查HTTP错误
             self.token = r.json()['token']
-            print('API 登录成功')
+            print('API 登录成功， '+self.token)
         except requests.exceptions.RequestException as e:
             print(f'API 登录失败: {e}')
             # 如果登录失败，可能需要抛出异常或采取其他措施
@@ -79,6 +80,19 @@ class ApiClient:
             print(f"[错误] 获取视频信息 {video_id} 失败: {e}")
             raise # 将异常向上抛出，以便调用者处理
         return r
+
+    # def check_videos(self,videos_response):
+    #     try:
+    #         videos = videos_response.json().get('results', [])  # 安全获取 results
+    #         if not videos:
+    #             print("未找到任何视频。")
+    #             return
+    #     except RequestException as e:
+    #         print(f"获取视频列表失败: {e}")
+    #         return
+    #     except Exception as e:  # 包括可能的 JSONDecodeError
+    #         print(f"处理视频列表响应时出错: {e}")
+    #         return
 
     # limit query is not working
     def get_videos(self, sort = 'date', rating = 'all', page = 0, limit = 32, subscribed = False) -> requests.Response:
@@ -111,6 +125,9 @@ class ApiClient:
         except requests.exceptions.RequestException as e:
             print(f"[错误] 获取视频列表失败: {e}")
             raise # 将异常向上抛出
+
+        # r = self.check_videos(r)
+
         return r
 
     def download_video_thumbnail(self, video_id) -> str | None:
